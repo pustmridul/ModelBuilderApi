@@ -28,6 +28,7 @@ namespace ModelBuilderApi.Controllers
             }
 
         }
+
         [HttpGet]
         [Route("GetAppUser")]
         public async Task<IActionResult> GetAppUser()
