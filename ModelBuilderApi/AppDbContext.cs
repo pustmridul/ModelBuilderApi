@@ -11,5 +11,7 @@ namespace ModelBuilderApi
         }
 
         public DbSet<AgeRange> AgeRanges { get; set; }
+        public DbSet<App_User> App_Users { get; set; }
+
     }
 }
