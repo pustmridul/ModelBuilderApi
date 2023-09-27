@@ -12,6 +12,36 @@ namespace ModelBuilderApi
 
         public DbSet<AgeRange> AgeRanges { get; set; }
         public DbSet<App_User> App_Users { get; set; }
+        public DbSet<AREA> AREAS { get; set; }
+        public DbSet<BarcodePrintLog> BarcodePrintLogs { get; set; }
+        public DbSet<BookingPayment> BookingPayments { get; set; }
+        public DbSet<BookingSummary> BookingSummarys { get; set; }
+        public DbSet<BRAND> BRANDS { get; set; }
+        public DbSet<BRAND_Log> BRAND_Logs { get; set; }
+        public DbSet<CancelReason> CancelReasons { get; set; }
+        public DbSet<CardType> CardTypes { get; set; }
+        public DbSet<CashFlow> CashFlows { get; set; }
+        public DbSet<CashStatement> CashStatements { get; set; }
+        public DbSet<CATEGORY> CATEGORYS { get; set; }
+        public DbSet<CATEGORY_Log> CATEGORY_Logs { get; set; }
+        public DbSet<CHALLAN_WISE_DISTRIBUTION_PLAN> CHALLAN_WISE_DISTRIBUTION_PLANS { get; set; }
+        public DbSet<Circular_Disc_Barcode> Circular_Disc_Barcodes { get; set; }
+        public DbSet<CIRCULAR_DISCOUNT> CIRCULAR_DISCOUNTS { get; set; }
+        public DbSet<CIRCULAR_PRICE_CHANGE> CIRCULAR_PRICE_CHANGES { get; set; }
+        public DbSet<CITY> CITYS { get; set; }
+        public DbSet<CLAIM_REASON> CLAIM_REASONS { get; set; }
+        public DbSet<COMPANY_INFO> COMPANY_INFOS { get; set; }
+        public DbSet<ConsoleSetup> ConsoleSetups { get; set; }
+        public DbSet<ConsoleType> ConsoleTypes { get; set; }
+        public DbSet<COURIER_LOG> COURIER_LOGS { get; set; }
+        public DbSet<CourierChargeRule> CourierChargeRules { get; set; }
+        public DbSet<CourierLocation> CourierLocations { get; set; }
+        public DbSet<CourierService> CourierServices { get; set; }
+        public DbSet<cProfile> cProfiles { get; set; }
+        public DbSet<CREDIT_COLLECTION> CREDIT_COLLECTIONS { get; set; }
+        public DbSet<CREDIT_NOTE> CREDIT_NOTES { get; set; }
+        public DbSet<CUSTOMER> CUSTOMERS { get; set; }
+        public DbSet<CUSTOMER_BARCODE> CUSTOMER_BARCODES { get; set; }
 
     }
 }
