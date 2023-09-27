@@ -11,8 +11,8 @@ namespace ModelBuilderApi
         }
 
         public DbSet<AgeRange> AgeRanges { get; set; }
-        public DbSet<App_User> App_Users { get; set; }
-        public DbSet<AREA> AREAS { get; set; }
+      //  public DbSet<App_User> App_Users { get; set; }
+        //public DbSet<AREA> AREAS { get; set; }
         public DbSet<BarcodePrintLog> BarcodePrintLogs { get; set; }
         public DbSet<BookingPayment> BookingPayments { get; set; }
         public DbSet<BookingSummary> BookingSummarys { get; set; }
@@ -42,6 +42,16 @@ namespace ModelBuilderApi
         public DbSet<CREDIT_NOTE> CREDIT_NOTES { get; set; }
         public DbSet<CUSTOMER> CUSTOMERS { get; set; }
         public DbSet<CUSTOMER_BARCODE> CUSTOMER_BARCODES { get; set; }
+        public DbSet<CUSTOMER_CARD> CUSTOMER_CARDS { get; set; }
+        public DbSet<CUSTOMER_CREDIT_LEDGER> CUSTOMER_CREDIT_LEDGERS { get; set; }
+        public DbSet<CUSTOMER_Log> CUSTOMER_Logs { get; set; }
+        public DbSet<CUSTOMER_PRICE_SETUP> CUSTOMER_PRICE_SETUPS { get; set; }
+        public DbSet<CUSTOMER_QUOTATION> CUSTOMER_QUOTATIONS { get; set; }
+        public DbSet<CustomerExtraField> CustomerExtraFields { get; set; }
+        public DbSet<CustomerType> CustomerTypes { get; set; }
+        public DbSet<CustomerType_Log> CustomerType_Logs { get; set; }
+        public DbSet<CustomerUpgradationDegradation> CustomerUpgradationDegradations { get; set; }
+        public DbSet<PRODUCT> PRODUCTS { get; set; }
 
     }
 }

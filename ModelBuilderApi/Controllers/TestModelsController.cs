@@ -335,13 +335,166 @@ namespace ModelBuilderApi.Controllers
 
         //}
 
+        //[HttpGet]
+        //[Route("CREDIT_COLLECTION")]
+        //public async Task<IActionResult> GetCREDIT_COLLECTION()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.CREDIT_COLLECTIONS.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+        //[HttpGet]
+        //[Route("CREDIT_NOTE")]
+        //public async Task<IActionResult> GetCREDIT_NOTE()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.CREDIT_NOTES.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+        //[HttpGet]
+        //[Route("CUSTOMER")]
+        //public async Task<IActionResult> GetCUSTOMER()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.CUSTOMERS.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+        //[HttpGet]
+        //[Route("CUSTOMER_BARCODE")]
+        //public async Task<IActionResult> GetCUSTOMER_BARCODE()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.CUSTOMER_BARCODES.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+        //[HttpGet]
+        //[Route("CUSTOMER_CARD")]
+        //public async Task<IActionResult> GetCUSTOMER_CARD()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.CUSTOMER_CARDS.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+        //[HttpGet]
+        //[Route("CUSTOMER_CREDIT_LEDGER")]
+        //public async Task<IActionResult> GetCUSTOMER_CREDIT_LEDGER()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.CUSTOMER_CREDIT_LEDGERS.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+        //[HttpGet]
+        //[Route("CUSTOMER_Log")]
+        //public async Task<IActionResult> GetCUSTOMER_Log()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.CUSTOMER_Logs.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+        //[HttpGet]
+        //[Route("CUSTOMER_PRICE_SETUP")]
+        //public async Task<IActionResult> GetCUSTOMER_PRICE_SETUP()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.CUSTOMER_PRICE_SETUPS.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+        //[HttpGet]
+        //[Route("CUSTOMER_QUOTATION")]
+        //public async Task<IActionResult> GetCUSTOMER_QUOTATION()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.CUSTOMER_QUOTATIONS.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+        //[HttpGet]
+        //[Route("CustomerExtraField")]
+        //public async Task<IActionResult> GetCustomerExtraField()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.CustomerExtraFields.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
         [HttpGet]
-        [Route("CREDIT_COLLECTION")]
-        public async Task<IActionResult> GetCREDIT_COLLECTION()
+        [Route("CustomerType")]
+        public async Task<IActionResult> GetCustomerType()
         {
             try
             {
-                var result = await _context.CREDIT_COLLECTIONS.ToListAsync();
+                var result = await _context.CustomerTypes.ToListAsync();
                 return Ok(result);
             }
             catch (Exception ex)
@@ -352,12 +505,12 @@ namespace ModelBuilderApi.Controllers
         }
 
         [HttpGet]
-        [Route("CREDIT_NOTE")]
-        public async Task<IActionResult> GetCREDIT_NOTE()
+        [Route("CustomerType_Log")]
+        public async Task<IActionResult> GetCustomerType_Log()
         {
             try
             {
-                var result = await _context.CREDIT_NOTES.ToListAsync();
+                var result = await _context.CustomerType_Logs.ToListAsync();
                 return Ok(result);
             }
             catch (Exception ex)
@@ -367,12 +520,12 @@ namespace ModelBuilderApi.Controllers
 
         }
         [HttpGet]
-        [Route("CUSTOMER")]
-        public async Task<IActionResult> GetCUSTOMER()
+        [Route("CustomerUpgradationDegradation")]
+        public async Task<IActionResult> GetCustomerUpgradationDegradation()
         {
             try
             {
-                var result = await _context.CUSTOMERS.ToListAsync();
+                var result = await _context.CustomerUpgradationDegradations.ToListAsync();
                 return Ok(result);
             }
             catch (Exception ex)
@@ -381,13 +534,14 @@ namespace ModelBuilderApi.Controllers
             }
 
         }
+
         [HttpGet]
-        [Route("CUSTOMER_BARCODE")]
-        public async Task<IActionResult> GetCUSTOMER_BARCODE()
+        [Route("PRODUCT")]
+        public async Task<IActionResult> GetPRODUCT()
         {
             try
             {
-                var result = await _context.CUSTOMER_BARCODES.ToListAsync();
+                var result = await _context.PRODUCTS.ToListAsync();
                 return Ok(result);
             }
             catch (Exception ex)
