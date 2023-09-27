@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using ModelBuilderApi.Entity;
 using System.Collections.Generic;
+using System.Drawing;
 
 namespace ModelBuilderApi
 {
@@ -61,6 +62,39 @@ namespace ModelBuilderApi
         public DbSet<Department> Departments { get; set; }
         public DbSet<Department_Log> Department_Logs { get; set; }
         public DbSet<DESIRED_STOCK_SETUP> DESIRED_STOCK_SETUPS { get; set; }
+        public DbSet<DISCOUNT_BRAND> DISCOUNT_BRANDS { get; set; }
+        public DbSet<DISCOUNT_NONBRAND> DISCOUNT_NONBRANDS { get; set; }
+        public DbSet<DO_Company> DO_Companys { get; set; }
+        public DbSet<DocPrintLog> DocPrintLogs { get; set; }
+        public DbSet<DONOR> DONORS { get; set; }
+        public DbSet<EcomExtraFieldSetup> EcomExtraFieldSetups { get; set; }
+        public DbSet<EcomMessage> EcomMessages { get; set; }
+        public DbSet<EMPLOYEE> EMPLOYEES { get; set; }
+        public DbSet<EMPLOYEE_DESIGNATION> EMPLOYEE_DESIGNATIONS { get; set; }
+        public DbSet<EMPLOYEE_DESIGNATION_Log> EMPLOYEE_DESIGNATION_Logs { get; set; }
+        public DbSet<EmployeeAttachedStore> EmployeeAttachedStores { get; set; }
+        public DbSet<ExcessCreditLimit> ExcessCreditLimits { get; set; }
+        public DbSet<FreeTextName> FreeTextNames { get; set; }
+        public DbSet<GIFT_ITEM_STOCK> GIFT_ITEM_STOCK { get; set; }
+        public DbSet<GIFT_VOUCHER_GENERATION> GIFT_VOUCHER_GENERATION { get; set; }
+        public DbSet<GIFT_VOUCHER_GENERATION_LOG> GIFT_VOUCHER_GENERATION_LOGS { get; set; }
+        public DbSet<GIFT_VOUCHER_STOCK> GIFT_VOUCHER_STOCKS { get; set; }
+        public DbSet<GiftVoucherDelivery> GiftVoucherDeliverys { get; set; }
+        public DbSet<GiftVoucherDeliveryDetails> GiftVoucherDeliveryDetails { get; set; }
+        public DbSet<GlobalSetupGL> GlobalSetupGL { get; set; }
+        public DbSet<GLSTRUCTURE> GLSTRUCTURE { get; set; }
+        public DbSet<GLTem> GLTems { get; set; }
+        public DbSet<INVALID_PRODUCT_SALE_REGISTER> INVALID_PRODUCT_SALE_REGISTER { get; set; }
+        public DbSet<INVOICE_CREDIT_LEDGER> INVOICE_CREDIT_LEDGER { get; set; }
+        public DbSet<InvoiceDelivery> InvoiceDelivery { get; set; }
+        public DbSet<InvTrackingAuditorDetails> InvTrackingAuditorDetails { get; set; }
+        public DbSet<InvTrackingDetails> InvTrackingDetails { get; set; }
+        public DbSet<InvTrackingDetailsUpdate> InvTrackingDetailsUpdates { get; set; }
+        public DbSet<InvTrackingSummary> InvTrackingSummary { get; set; }
+        public DbSet<InvTrackingSummaryTemp> InvTrackingSummaryTemp { get; set; }
+        public DbSet<LabelSetup> LabelSetup { get; set; }
+        public DbSet<LoginLog> LoginLog { get; set; }
+        public DbSet<LoyaltyPointsHistory> LoyaltyPointsHistory { get; set; }
 
 
     }

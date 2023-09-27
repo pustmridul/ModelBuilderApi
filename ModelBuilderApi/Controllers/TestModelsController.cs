@@ -644,13 +644,430 @@ namespace ModelBuilderApi.Controllers
 
         //}
 
+        //[HttpGet]
+        //[Route("Department_Log")]
+        //public async Task<IActionResult> GetDepartment_Log()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.Department_Logs.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+        //[HttpGet]
+        //[Route("DESIRED_STOCK_SETUP")]
+        //public async Task<IActionResult> GetDESIRED_STOCK_SETUP()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.DESIRED_STOCK_SETUPS.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+        //[HttpGet]
+        //[Route("BookingDetails")]
+        //public async Task<IActionResult> GetBookingDetails()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.BookingDetails.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+        //[HttpGet]
+        //[Route("DISCOUNT_BRAND")]
+        //public async Task<IActionResult> GetDISCOUNT_BRAND()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.DISCOUNT_BRANDS.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+        //[HttpGet]
+        //[Route("DISCOUNT_NONBRAND")]
+        //public async Task<IActionResult> GetDISCOUNT_NONBRAND()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.DISCOUNT_NONBRANDS.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+
+        //[HttpGet]
+        //[Route("DO_Company")]
+        //public async Task<IActionResult> GetDO_Company()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.DO_Companys.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+        //[HttpGet]
+        //[Route("DocPrintLog")]
+        //public async Task<IActionResult> GetDocPrintLog()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.DocPrintLogs.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+        //[HttpGet]
+        //[Route("DONOR")]
+        //public async Task<IActionResult> GetDONOR()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.DONORS.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+        //[HttpGet]
+        //[Route("EcomExtraFieldSetup")]
+        //public async Task<IActionResult> GetEcomExtraFieldSetup()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.EcomExtraFieldSetups.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+        //[HttpGet]
+        //[Route("EcomMessage")]
+        //public async Task<IActionResult> GetEcomMessage()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.EcomMessages.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+        //[HttpGet]
+        //[Route("EMPLOYEE")]
+        //public async Task<IActionResult> GetEMPLOYEE()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.EMPLOYEES.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+
+        //[HttpGet]
+        //[Route("EMPLOYEE_DESIGNATION")]
+        //public async Task<IActionResult> GetEMPLOYEE_DESIGNATION()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.EMPLOYEE_DESIGNATIONS.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+        //[HttpGet]
+        //[Route("EMPLOYEE_DESIGNATION_Log")]
+        //public async Task<IActionResult> GetEMPLOYEE_DESIGNATION_Log()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.EMPLOYEE_DESIGNATION_Logs.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+        //[HttpGet]
+        //[Route("EmployeeAttachedStore")]
+        //public async Task<IActionResult> GetEmployeeAttachedStore()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.EmployeeAttachedStores.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+        //[HttpGet]
+        //[Route("ExcessCreditLimit")]
+        //public async Task<IActionResult> GetExcessCreditLimit()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.ExcessCreditLimits.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+        //[HttpGet]
+        //[Route("FreeTextName")]
+        //public async Task<IActionResult> GetFreeTextName()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.FreeTextNames.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+        //[HttpGet]
+        //[Route("GIFT_ITEM_STOCK")]
+        //public async Task<IActionResult> GetGIFT_ITEM_STOCK()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.GIFT_ITEM_STOCK.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+
+
+        //[HttpGet]
+        //[Route("GIFT_VOUCHER_GENERATION")]
+        //public async Task<IActionResult> GetGIFT_VOUCHER_GENERATION()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.GIFT_VOUCHER_GENERATION.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+        //[HttpGet]
+        //[Route("GIFT_VOUCHER_GENERATION_LOG")]
+        //public async Task<IActionResult> GetGIFT_VOUCHER_GENERATION_LOG()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.GIFT_VOUCHER_GENERATION_LOGS.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+
+        //[HttpGet]
+        //[Route("GIFT_VOUCHER_STOCK")]
+        //public async Task<IActionResult> GetGIFT_VOUCHER_STOCK()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.GIFT_VOUCHER_STOCKS.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+        //[HttpGet]
+        //[Route("GiftVoucherDelivery")]
+        //public async Task<IActionResult> GetGiftVoucherDelivery()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.GiftVoucherDeliverys.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+        //[HttpGet]
+        //[Route("GiftVoucherDeliveryDetails")]
+        //public async Task<IActionResult> GetGiftVoucherDeliveryDetails()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.GiftVoucherDeliveryDetails.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+        //[HttpGet]
+        //[Route("GlobalSetupGL")]
+        //public async Task<IActionResult> GetGlobalSetupGL()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.GlobalSetupGL.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+
+        //[HttpGet]
+        //[Route("GLSTRUCTURE")]
+        //public async Task<IActionResult> GetGLSTRUCTURE()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.GLSTRUCTURE.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+
+        //[HttpGet]
+        //[Route("INVALID_PRODUCT_SALE_REGISTER")]
+        //public async Task<IActionResult> GetINVALID_PRODUCT_SALE_REGISTER()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.INVALID_PRODUCT_SALE_REGISTER.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+        //[HttpGet]
+        //[Route("INVOICE_CREDIT_LEDGER")]
+        //public async Task<IActionResult> GetINVOICE_CREDIT_LEDGER()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.INVOICE_CREDIT_LEDGER.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
         [HttpGet]
-        [Route("Department_Log")]
-        public async Task<IActionResult> GetDepartment_Log()
+        [Route("InvoiceDelivery")]
+        public async Task<IActionResult> GetInvoiceDelivery()
         {
             try
             {
-                var result = await _context.Department_Logs.ToListAsync();
+                var result = await _context.InvoiceDelivery.ToListAsync();
                 return Ok(result);
             }
             catch (Exception ex)
@@ -661,12 +1078,12 @@ namespace ModelBuilderApi.Controllers
         }
 
         [HttpGet]
-        [Route("DESIRED_STOCK_SETUP")]
-        public async Task<IActionResult> GetDESIRED_STOCK_SETUP()
+        [Route("InvTrackingAuditorDetails")]
+        public async Task<IActionResult> GetInvTrackingAuditorDetails()
         {
             try
             {
-                var result = await _context.DESIRED_STOCK_SETUPS.ToListAsync();
+                var result = await _context.InvTrackingAuditorDetails.ToListAsync();
                 return Ok(result);
             }
             catch (Exception ex)
@@ -677,12 +1094,12 @@ namespace ModelBuilderApi.Controllers
         }
 
         [HttpGet]
-        [Route("BookingDetails")]
-        public async Task<IActionResult> GetBookingDetails()
+        [Route("InvTrackingDetails")]
+        public async Task<IActionResult> GetInvTrackingDetails()
         {
             try
             {
-                var result = await _context.BookingDetails.ToListAsync();
+                var result = await _context.InvTrackingDetails.ToListAsync();
                 return Ok(result);
             }
             catch (Exception ex)
@@ -691,5 +1108,102 @@ namespace ModelBuilderApi.Controllers
             }
 
         }
+        [HttpGet]
+        [Route("InvTrackingDetailsUpdate")]
+        public async Task<IActionResult> GetInvTrackingDetailsUpdate()
+        {
+            try
+            {
+                var result = await _context.InvTrackingDetailsUpdates.ToListAsync();
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return Ok(ex.Message);
+            }
+
+        }
+
+
+        [HttpGet]
+        [Route("InvTrackingSummary")]
+        public async Task<IActionResult> GetInvTrackingSummary()
+        {
+            try
+            {
+                var result = await _context.InvTrackingSummary.ToListAsync();
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return Ok(ex.Message);
+            }
+
+        }
+
+        [HttpGet]
+        [Route("InvTrackingSummaryTemp")]
+        public async Task<IActionResult> GetInvTrackingSummaryTemp()
+        {
+            try
+            {
+                var result = await _context.InvTrackingSummaryTemp.ToListAsync();
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return Ok(ex.Message);
+            }
+
+        }
+
+        [HttpGet]
+        [Route("LabelSetup")]
+        public async Task<IActionResult> GetLabelSetup()
+        {
+            try
+            {
+                var result = await _context.LabelSetup.ToListAsync();
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return Ok(ex.Message);
+            }
+
+        }
+        [HttpGet]
+        [Route("LoginLog")]
+        public async Task<IActionResult> GetLoginLog()
+        {
+            try
+            {
+                var result = await _context.LoginLog.ToListAsync();
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return Ok(ex.Message);
+            }
+
+        }
+
+
+        [HttpGet]
+        [Route("LoyaltyPointsHistory")]
+        public async Task<IActionResult> GetLoyaltyPointsHistory()
+        {
+            try
+            {
+                var result = await _context.LoyaltyPointsHistory.ToListAsync();
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return Ok(ex.Message);
+            }
+
+        }
+
     }
 }
