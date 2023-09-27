@@ -488,13 +488,169 @@ namespace ModelBuilderApi.Controllers
         //    }
 
         //}
+        //[HttpGet]
+        //[Route("CustomerType")]
+        //public async Task<IActionResult> GetCustomerType()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.CustomerTypes.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+        //[HttpGet]
+        //[Route("CustomerType_Log")]
+        //public async Task<IActionResult> GetCustomerType_Log()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.CustomerType_Logs.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+        //[HttpGet]
+        //[Route("CustomerUpgradationDegradation")]
+        //public async Task<IActionResult> GetCustomerUpgradationDegradation()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.CustomerUpgradationDegradations.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+        //[HttpGet]
+        //[Route("PRODUCT")]
+        //public async Task<IActionResult> GetPRODUCT()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.PRODUCTS.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+        //[HttpGet]
+        //[Route("CustomerVoucher")]
+        //public async Task<IActionResult> GetCustomerVoucher()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.CustomerVouchers.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+        //[HttpGet]
+        //[Route("CustomSmsHistory")]
+        //public async Task<IActionResult> GetCustomSmsHistory()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.CustomSmsHistorys.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+        //[HttpGet]
+        //[Route("DayCloseLog")]
+        //public async Task<IActionResult> GetDayCloseLog()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.DayCloseLogs.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+        //[HttpGet]
+        //[Route("DELIVERY_REQUISITION")]
+        //public async Task<IActionResult> GetDELIVERY_REQUISITION()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.DELIVERY_REQUISITIONS.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+        //[HttpGet]
+        //[Route("DeliveryPerson")]
+        //public async Task<IActionResult> GetDeliveryPerson()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.DeliveryPersons.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+        //[HttpGet]
+        //[Route("Department")]
+        //public async Task<IActionResult> GetDepartment()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.Departments.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
         [HttpGet]
-        [Route("CustomerType")]
-        public async Task<IActionResult> GetCustomerType()
+        [Route("Department_Log")]
+        public async Task<IActionResult> GetDepartment_Log()
         {
             try
             {
-                var result = await _context.CustomerTypes.ToListAsync();
+                var result = await _context.Department_Logs.ToListAsync();
                 return Ok(result);
             }
             catch (Exception ex)
@@ -505,27 +661,12 @@ namespace ModelBuilderApi.Controllers
         }
 
         [HttpGet]
-        [Route("CustomerType_Log")]
-        public async Task<IActionResult> GetCustomerType_Log()
+        [Route("DESIRED_STOCK_SETUP")]
+        public async Task<IActionResult> GetDESIRED_STOCK_SETUP()
         {
             try
             {
-                var result = await _context.CustomerType_Logs.ToListAsync();
-                return Ok(result);
-            }
-            catch (Exception ex)
-            {
-                return Ok(ex.Message);
-            }
-
-        }
-        [HttpGet]
-        [Route("CustomerUpgradationDegradation")]
-        public async Task<IActionResult> GetCustomerUpgradationDegradation()
-        {
-            try
-            {
-                var result = await _context.CustomerUpgradationDegradations.ToListAsync();
+                var result = await _context.DESIRED_STOCK_SETUPS.ToListAsync();
                 return Ok(result);
             }
             catch (Exception ex)
@@ -536,12 +677,12 @@ namespace ModelBuilderApi.Controllers
         }
 
         [HttpGet]
-        [Route("PRODUCT")]
-        public async Task<IActionResult> GetPRODUCT()
+        [Route("BookingDetails")]
+        public async Task<IActionResult> GetBookingDetails()
         {
             try
             {
-                var result = await _context.PRODUCTS.ToListAsync();
+                var result = await _context.BookingDetails.ToListAsync();
                 return Ok(result);
             }
             catch (Exception ex)

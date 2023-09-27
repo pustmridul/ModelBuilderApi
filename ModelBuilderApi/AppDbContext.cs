@@ -15,6 +15,7 @@ namespace ModelBuilderApi
         //public DbSet<AREA> AREAS { get; set; }
         public DbSet<BarcodePrintLog> BarcodePrintLogs { get; set; }
         public DbSet<BookingPayment> BookingPayments { get; set; }
+        public DbSet<BookingDetails> BookingDetails { get; set; }
         public DbSet<BookingSummary> BookingSummarys { get; set; }
         public DbSet<BRAND> BRANDS { get; set; }
         public DbSet<BRAND_Log> BRAND_Logs { get; set; }
@@ -52,6 +53,15 @@ namespace ModelBuilderApi
         public DbSet<CustomerType_Log> CustomerType_Logs { get; set; }
         public DbSet<CustomerUpgradationDegradation> CustomerUpgradationDegradations { get; set; }
         public DbSet<PRODUCT> PRODUCTS { get; set; }
+        public DbSet<CustomerVoucher> CustomerVouchers { get; set; }
+        public DbSet<CustomSmsHistory> CustomSmsHistorys { get; set; }
+        public DbSet<DayCloseLog> DayCloseLogs { get; set; }
+        public DbSet<DELIVERY_REQUISITION> DELIVERY_REQUISITIONS { get; set; }
+        public DbSet<DeliveryPerson> DeliveryPersons { get; set; }
+        public DbSet<Department> Departments { get; set; }
+        public DbSet<Department_Log> Department_Logs { get; set; }
+        public DbSet<DESIRED_STOCK_SETUP> DESIRED_STOCK_SETUPS { get; set; }
+
 
     }
 }
