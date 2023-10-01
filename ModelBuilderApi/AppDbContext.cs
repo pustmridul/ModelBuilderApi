@@ -105,6 +105,27 @@ namespace ModelBuilderApi
         public DbSet<ORDER> ORDERS { get; set; }
         public DbSet<ORDER_ADDRESS> ORDER_ADDRESS { get; set; }
         public DbSet<ORDER_ADDRESS_EDIT_HIS> ORDER_ADDRESS_EDIT_HIS { get; set; }
+        public DbSet<ORDER_DETAILS> ORDER_DETAILS { get; set; }
+        public DbSet<ORDER_DETAILS_EDIT_HIS> ORDER_DETAILS_EDIT_HIS { get; set; }
+        public DbSet<ORDER_DETAILS_WRK> ORDER_DETAILS_WRK { get; set; }
+        public DbSet<ORDER_EDIT_HIS> ORDER_EDIT_HIS { get; set; }
+        public DbSet<ORDER_TRACKING> ORDER_TRACKING { get; set; }
+        public DbSet<OrderDeliveryScan> OrderDeliveryScan { get; set; }
+        public DbSet<OrderLog> OrderLog { get; set; }
+        public DbSet<OrderNote> OrderNote { get; set; }
+        public DbSet<OtpHistory> OtpHistory { get; set; }
+        public DbSet<P_PACKAGE_SALE_REGISTER> P_PACKAGE_SALE_REGISTER { get; set; }
+        public DbSet<P_SALE> P_SALE { get; set; }
+        public DbSet<P_SALE_PAYMENT> P_SALE_PAYMENT { get; set; }
+        public DbSet<P_SSUMMARY> P_SSUMMARY { get; set; }
+        public DbSet<PACK_SIZE_LIST> PACK_SIZE_LIST { get; set; }
+        public DbSet<PACK_SIZE_LIST_Log> PACK_SIZE_LIST_Log { get; set; }
+        public DbSet<PACKAGE_BOOKING_REGISTER> PACKAGE_BOOKING_REGISTER { get; set; }
+        public DbSet<PACKAGE_SALE_REGISTER> PACKAGE_SALE_REGISTER { get; set; }
+        public DbSet<PAYMENT_METHOD> PAYMENT_METHOD { get; set; }
+        public DbSet<PAYMENT_METHOD_Log> PAYMENT_METHOD_Log { get; set; }
+        public DbSet<PHYSICAL_PRODUCT_STOCK> PHYSICAL_PRODUCT_STOCK { get; set; }
+        public DbSet<PLNoteSetup> PLNoteSetup { get; set; }
 
 
     }
