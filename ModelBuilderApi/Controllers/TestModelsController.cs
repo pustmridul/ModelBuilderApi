@@ -1061,13 +1061,188 @@ namespace ModelBuilderApi.Controllers
 
         //}
 
+        //[HttpGet]
+        //[Route("InvoiceDelivery")]
+        //public async Task<IActionResult> GetInvoiceDelivery()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.InvoiceDelivery.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+        //[HttpGet]
+        //[Route("InvTrackingAuditorDetails")]
+        //public async Task<IActionResult> GetInvTrackingAuditorDetails()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.InvTrackingAuditorDetails.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+        //[HttpGet]
+        //[Route("InvTrackingDetails")]
+        //public async Task<IActionResult> GetInvTrackingDetails()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.InvTrackingDetails.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+        //[HttpGet]
+        //[Route("InvTrackingDetailsUpdate")]
+        //public async Task<IActionResult> GetInvTrackingDetailsUpdate()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.InvTrackingDetailsUpdates.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+
+        //[HttpGet]
+        //[Route("InvTrackingSummary")]
+        //public async Task<IActionResult> GetInvTrackingSummary()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.InvTrackingSummary.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+        //[HttpGet]
+        //[Route("InvTrackingSummaryTemp")]
+        //public async Task<IActionResult> GetInvTrackingSummaryTemp()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.InvTrackingSummaryTemp.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+        //[HttpGet]
+        //[Route("LabelSetup")]
+        //public async Task<IActionResult> GetLabelSetup()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.LabelSetup.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+        //[HttpGet]
+        //[Route("LoginLog")]
+        //public async Task<IActionResult> GetLoginLog()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.LoginLog.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+
+        //[HttpGet]
+        //[Route("LoyaltyPointsHistory")]
+        //public async Task<IActionResult> GetLoyaltyPointsHistory()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.LoyaltyPointsHistory.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+        //[HttpGet]
+        //[Route("MANUFACTURER")]
+        //public async Task<IActionResult> GetMANUFACTURER()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.MANUFACTURER.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+
+        //[HttpGet]
+        //[Route("MEASURING_UNIT")]
+        //public async Task<IActionResult> GetMEASURING_UNIT()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.MEASURING_UNIT.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
         [HttpGet]
-        [Route("InvoiceDelivery")]
-        public async Task<IActionResult> GetInvoiceDelivery()
+        [Route("MEASURING_UNIT_Log")]
+        public async Task<IActionResult> GetMEASURING_UNIT_Log()
         {
             try
             {
-                var result = await _context.InvoiceDelivery.ToListAsync();
+                var result = await _context.MEASURING_UNIT_Log.ToListAsync();
                 return Ok(result);
             }
             catch (Exception ex)
@@ -1078,43 +1253,12 @@ namespace ModelBuilderApi.Controllers
         }
 
         [HttpGet]
-        [Route("InvTrackingAuditorDetails")]
-        public async Task<IActionResult> GetInvTrackingAuditorDetails()
+        [Route("MEMBER_POINT_PROMOTION")]
+        public async Task<IActionResult> GetMEMBER_POINT_PROMOTION()
         {
             try
             {
-                var result = await _context.InvTrackingAuditorDetails.ToListAsync();
-                return Ok(result);
-            }
-            catch (Exception ex)
-            {
-                return Ok(ex.Message);
-            }
-
-        }
-
-        [HttpGet]
-        [Route("InvTrackingDetails")]
-        public async Task<IActionResult> GetInvTrackingDetails()
-        {
-            try
-            {
-                var result = await _context.InvTrackingDetails.ToListAsync();
-                return Ok(result);
-            }
-            catch (Exception ex)
-            {
-                return Ok(ex.Message);
-            }
-
-        }
-        [HttpGet]
-        [Route("InvTrackingDetailsUpdate")]
-        public async Task<IActionResult> GetInvTrackingDetailsUpdate()
-        {
-            try
-            {
-                var result = await _context.InvTrackingDetailsUpdates.ToListAsync();
+                var result = await _context.MEMBER_POINT_PROMOTION.ToListAsync();
                 return Ok(result);
             }
             catch (Exception ex)
@@ -1126,12 +1270,27 @@ namespace ModelBuilderApi.Controllers
 
 
         [HttpGet]
-        [Route("InvTrackingSummary")]
-        public async Task<IActionResult> GetInvTrackingSummary()
+        [Route("MENU")]
+        public async Task<IActionResult> GetMENU()
         {
             try
             {
-                var result = await _context.InvTrackingSummary.ToListAsync();
+                var result = await _context.MENU.ToListAsync();
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return Ok(ex.Message);
+            }
+
+        }
+        [HttpGet]
+        [Route("MenuA")]
+        public async Task<IActionResult> GetMenuA()
+        {
+            try
+            {
+                var result = await _context.MenuA.ToListAsync();
                 return Ok(result);
             }
             catch (Exception ex)
@@ -1142,12 +1301,12 @@ namespace ModelBuilderApi.Controllers
         }
 
         [HttpGet]
-        [Route("InvTrackingSummaryTemp")]
-        public async Task<IActionResult> GetInvTrackingSummaryTemp()
+        [Route("Notification")]
+        public async Task<IActionResult> GetNotification()
         {
             try
             {
-                var result = await _context.InvTrackingSummaryTemp.ToListAsync();
+                var result = await _context.Notification.ToListAsync();
                 return Ok(result);
             }
             catch (Exception ex)
@@ -1158,27 +1317,12 @@ namespace ModelBuilderApi.Controllers
         }
 
         [HttpGet]
-        [Route("LabelSetup")]
-        public async Task<IActionResult> GetLabelSetup()
+        [Route("ORDER")]
+        public async Task<IActionResult> GetORDER()
         {
             try
             {
-                var result = await _context.LabelSetup.ToListAsync();
-                return Ok(result);
-            }
-            catch (Exception ex)
-            {
-                return Ok(ex.Message);
-            }
-
-        }
-        [HttpGet]
-        [Route("LoginLog")]
-        public async Task<IActionResult> GetLoginLog()
-        {
-            try
-            {
-                var result = await _context.LoginLog.ToListAsync();
+                var result = await _context.ORDERS.ToListAsync();
                 return Ok(result);
             }
             catch (Exception ex)
@@ -1190,12 +1334,30 @@ namespace ModelBuilderApi.Controllers
 
 
         [HttpGet]
-        [Route("LoyaltyPointsHistory")]
-        public async Task<IActionResult> GetLoyaltyPointsHistory()
+        [Route("ORDER_ADDRESS")]
+        public async Task<IActionResult> GetORDER_ADDRESS()
         {
             try
             {
-                var result = await _context.LoyaltyPointsHistory.ToListAsync();
+                var result = await _context.ORDER_ADDRESS.ToListAsync();
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return Ok(ex.Message);
+            }
+
+        }
+
+
+
+        [HttpGet]
+        [Route("ORDER_ADDRESS_EDIT_HIS")]
+        public async Task<IActionResult> GetORDER_ADDRESS_EDIT_HIS()
+        {
+            try
+            {
+                var result = await _context.ORDER_ADDRESS_EDIT_HIS.ToListAsync();
                 return Ok(result);
             }
             catch (Exception ex)

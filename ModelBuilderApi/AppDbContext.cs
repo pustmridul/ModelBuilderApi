@@ -95,6 +95,16 @@ namespace ModelBuilderApi
         public DbSet<LabelSetup> LabelSetup { get; set; }
         public DbSet<LoginLog> LoginLog { get; set; }
         public DbSet<LoyaltyPointsHistory> LoyaltyPointsHistory { get; set; }
+        public DbSet<MANUFACTURER> MANUFACTURER { get; set; }
+        public DbSet<MEASURING_UNIT> MEASURING_UNIT { get; set; }
+        public DbSet<MEASURING_UNIT_Log> MEASURING_UNIT_Log { get; set; }
+        public DbSet<MEMBER_POINT_PROMOTION> MEMBER_POINT_PROMOTION { get; set; }
+        public DbSet<MENU> MENU { get; set; }
+        public DbSet<MenuA> MenuA { get; set; }
+        public DbSet<Notification> Notification { get; set; }
+        public DbSet<ORDER> ORDERS { get; set; }
+        public DbSet<ORDER_ADDRESS> ORDER_ADDRESS { get; set; }
+        public DbSet<ORDER_ADDRESS_EDIT_HIS> ORDER_ADDRESS_EDIT_HIS { get; set; }
 
 
     }
