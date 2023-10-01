@@ -126,6 +126,54 @@ namespace ModelBuilderApi
         public DbSet<PAYMENT_METHOD_Log> PAYMENT_METHOD_Log { get; set; }
         public DbSet<PHYSICAL_PRODUCT_STOCK> PHYSICAL_PRODUCT_STOCK { get; set; }
         public DbSet<PLNoteSetup> PLNoteSetup { get; set; }
+        public DbSet<PointEarnPolicy> PointEarnPolicy { get; set; }
+        public DbSet<PreGL> PreGL { get; set; }
+        public DbSet<PREGLStructure> PREGLStructure { get; set; }
+        public DbSet<PRIORITY> PRIORITY { get; set; }
+        public DbSet<ProcessedInvoice> ProcessedInvoice { get; set; }
+        public DbSet<PRODUCT_ALLOCATION_RATIO> PRODUCT_ALLOCATION_RATIO { get; set; }
+        public DbSet<PRODUCT_ATTRIBUTE> PRODUCT_ATTRIBUTE { get; set; }
+        public DbSet<PRODUCT_BARCODE> PRODUCT_BARCODE { get; set; }
+        public DbSet<PRODUCT_BOM> PRODUCT_BOM { get; set; }
+        public DbSet<PRODUCT_CARTON> PRODUCT_CARTON { get; set; }
+        public DbSet<PRODUCT_CONVERSION> PRODUCT_CONVERSION { get; set; }
+        public DbSet<PRODUCT_CONVERSION_SUMMARY> PRODUCT_CONVERSION_SUMMARY { get; set; }
+        public DbSet<PRODUCT_CONVERTION_SETUP> PRODUCT_CONVERTION_SETUP { get; set; }
+        public DbSet<PRODUCT_DELETE_LOG> PRODUCT_DELETE_LOG { get; set; }
+        public DbSet<PRODUCT_FILE> PRODUCT_FILE { get; set; }
+        public DbSet<Product_FileRubel> Product_FileRubel { get; set; }
+        public DbSet<PRODUCT_HIS> PRODUCT_HIS { get; set; }
+        public DbSet<PRODUCT_OPTIONS> PRODUCT_OPTIONS { get; set; }
+        public DbSet<PRODUCT_STOCK> PRODUCT_STOCK { get; set; }
+        public DbSet<PRODUCT_STOCK23AUG2022> PRODUCT_STOCK23AUG2022 { get; set; }
+        public DbSet<PRODUCT_VARIANCE> PRODUCT_VARIANCE { get; set; }
+        public DbSet<PRODUCT_VARIANCE_SEQUENCE> PRODUCT_VARIANCE_SEQUENCE { get; set; }
+        public DbSet<PRODUCT_VENDOR> PRODUCT_VENDOR { get; set; }
+        public DbSet<PRODUCT_VENDOR_USER_BARCODE> PRODUCT_VENDOR_USER_BARCODE { get; set; }
+        public DbSet<ProductColumnDefine> ProductColumnDefine { get; set; }
+        public DbSet<ProductConversionWrk> ProductConversionWrk { get; set; }
+        public DbSet<ProductExtraFieldSetup> ProductExtraFieldSetup { get; set; }
+        public DbSet<Production> Production { get; set; }
+        public DbSet<ProductionIng> ProductionIng { get; set; }
+        public DbSet<ProductPeriodicalBarcodewiseData> ProductPeriodicalBarcodewiseData { get; set; }
+        public DbSet<ProductPeriodicalBarcodewiseDataLog> ProductPeriodicalBarcodewiseDataLog { get; set; }
+        public DbSet<ProductRubel> ProductRubel { get; set; }
+        public DbSet<PROMOTION> PROMOTION { get; set; }
+        public DbSet<PROMOTION_BUY> PROMOTION_BUY { get; set; }
+        public DbSet<PROMOTION_BUY_MONTH_YEAR> PROMOTION_BUY_MONTH_YEAR { get; set; }
+        public DbSet<PROMOTION_GET> PROMOTION_GET { get; set; }
+        public DbSet<PROMOTION_HISTORY> PROMOTION_HISTORY { get; set; }
+        public DbSet<PROMOTION_STORE> PROMOTION_STORE { get; set; }
+        public DbSet<PROMOTION_TIME> PROMOTION_TIME { get; set; }
+        public DbSet<PromotionCustomerTag> PromotionCustomerTag { get; set; }
+        public DbSet<PURCHASE_ORDER> PURCHASE_ORDER { get; set; }
+        public DbSet<PURCHASE_ORDER_DETAILS> PURCHASE_ORDER_DETAILS { get; set; }
+        public DbSet<PURCHASE_ORDER_DETAILS_WRK> PURCHASE_ORDER_DETAILS_WRK { get; set; }
+        public DbSet<PURCHASE_RCV_DETAILS> PURCHASE_RCV_DETAILS { get; set; }
+        public DbSet<PURCHASE_RCV_DETAILS_WRK> PURCHASE_RCV_DETAILS_WRK { get; set; }
+        public DbSet<PURCHASE_RECEIVE> PURCHASE_RECEIVE { get; set; }
+        public DbSet<PURCHASE_RETURN> PURCHASE_RETURN { get; set; }
+
 
 
     }

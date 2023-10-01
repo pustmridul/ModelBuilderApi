@@ -1517,13 +1517,873 @@ namespace ModelBuilderApi.Controllers
 
 
 
+        //[HttpGet]
+        //[Route("P_SALE")]
+        //public async Task<IActionResult> GetP_SALE()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.P_SALE.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+        //[HttpGet]
+        //[Route("P_SALE_PAYMENT")]
+        //public async Task<IActionResult> GetP_SALE_PAYMENT()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.P_SALE_PAYMENT.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+
+
+        //[HttpGet]
+        //[Route("P_SSUMMARY")]
+        //public async Task<IActionResult> GetP_SSUMMARY()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.P_SSUMMARY.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+
+        //[HttpGet]
+        //[Route("PACK_SIZE_LIST")]
+        //public async Task<IActionResult> GetPACK_SIZE_LIST()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.PACK_SIZE_LIST.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+
+        //[HttpGet]
+        //[Route("PACKAGE_BOOKING_REGISTER")]
+        //public async Task<IActionResult> GetPACKAGE_BOOKING_REGISTER()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.PACKAGE_BOOKING_REGISTER.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+        //[HttpGet]
+        //[Route("PACKAGE_SALE_REGISTER")]
+        //public async Task<IActionResult> GetPACKAGE_SALE_REGISTER()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.PACKAGE_SALE_REGISTER.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+        //[HttpGet]
+        //[Route("PAYMENT_METHOD")]
+        //public async Task<IActionResult> GetPAYMENT_METHOD()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.PAYMENT_METHOD.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+        //[HttpGet]
+        //[Route("PAYMENT_METHOD_Log")]
+        //public async Task<IActionResult> GetPAYMENT_METHOD_Log()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.PAYMENT_METHOD_Log.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+        //[HttpGet]
+        //[Route("PHYSICAL_PRODUCT_STOCK")]
+        //public async Task<IActionResult> GetPHYSICAL_PRODUCT_STOCK()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.PHYSICAL_PRODUCT_STOCK.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+
+
+        //[HttpGet]
+        //[Route("PLNoteSetup")]
+        //public async Task<IActionResult> GePLNoteSetup()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.PLNoteSetup.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+
+        //[HttpGet]
+        //[Route("PointEarnPolicy")]
+        //public async Task<IActionResult> GePointEarnPolicy()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.PointEarnPolicy.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+
+        //[HttpGet]
+        //[Route("PreGL")]
+        //public async Task<IActionResult> GePreGL()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.PreGL.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+        //[HttpGet]
+        //[Route("PREGLStructure")]
+        //public async Task<IActionResult> GePREGLStructure()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.PREGLStructure.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+
+        //[HttpGet]
+        //[Route("PRIORITY")]
+        //public async Task<IActionResult> GePRIORITY()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.PRIORITY.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+
+        //[HttpGet]
+        //[Route("ProcessedInvoice")]
+        //public async Task<IActionResult> GeProcessedInvoice()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.ProcessedInvoice.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+
+
+        //[HttpGet]
+        //[Route("PRODUCT_ALLOCATION_RATIO")]
+        //public async Task<IActionResult> GePRODUCT_ALLOCATION_RATIO()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.PRODUCT_ALLOCATION_RATIO.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+        //[HttpGet]
+        //[Route("PRODUCT_ATTRIBUTE")]
+        //public async Task<IActionResult> GetPRODUCT_ATTRIBUTE()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.PRODUCT_ATTRIBUTE.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+
+        //[HttpGet]
+        //[Route("PRODUCT_BARCODE")]
+        //public async Task<IActionResult> GetPRODUCT_BARCODE()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.PRODUCT_BARCODE.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+
+
+        //[HttpGet]
+        //[Route("PRODUCT_BOM")]
+        //public async Task<IActionResult> GetPRODUCT_BOM()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.PRODUCT_BOM.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+        //[HttpGet]
+        //[Route("PRODUCT_CARTON")]
+        //public async Task<IActionResult> GetPRODUCT_CARTON()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.PRODUCT_CARTON.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+
+        //[HttpGet]
+        //[Route("PRODUCT_CONVERSION")]
+        //public async Task<IActionResult> GetPRODUCT_CONVERSION()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.PRODUCT_CONVERSION.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+
+        //[HttpGet]
+        //[Route("PRODUCT_CONVERSION_SUMMARY")]
+        //public async Task<IActionResult> GetPRODUCT_CONVERSION_SUMMARY()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.PRODUCT_CONVERSION_SUMMARY.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+
+
+        //[HttpGet]
+        //[Route("PRODUCT_CONVERTION_SETUP")]
+        //public async Task<IActionResult> GetPRODUCT_CONVERTION_SETUP()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.PRODUCT_CONVERTION_SETUP.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+
+        //[HttpGet]
+        //[Route("PRODUCT_DELETE_LOG")]
+        //public async Task<IActionResult> GetPRODUCT_DELETE_LOG()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.PRODUCT_DELETE_LOG.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+
+
+        //[HttpGet]
+        //[Route("PRODUCT_FILE")]
+        //public async Task<IActionResult> GetPRODUCT_FILE()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.PRODUCT_FILE.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+
+
+        //[HttpGet]
+        //[Route("Product_FileRubel")]
+        //public async Task<IActionResult> GetProduct_FileRubel()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.Product_FileRubel.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+        //[HttpGet]
+        //[Route("PRODUCT_HIS")]
+        //public async Task<IActionResult> GetPRODUCT_HIS()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.PRODUCT_HIS.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+
+        //[HttpGet]
+        //[Route("PRODUCT_OPTIONS")]
+        //public async Task<IActionResult> GetPRODUCT_OPTIONS()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.PRODUCT_OPTIONS.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+
+        //[HttpGet]
+        //[Route("PRODUCT_STOCK")]
+        //public async Task<IActionResult> GetPRODUCT_STOCK()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.PRODUCT_STOCK.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+        //[HttpGet]
+        //[Route("PRODUCT_STOCK23AUG2022")]
+        //public async Task<IActionResult> GetPRODUCT_STOCK23AUG2022()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.PRODUCT_STOCK23AUG2022.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+        //[HttpGet]
+        //[Route("PRODUCT_VARIANCE")]
+        //public async Task<IActionResult> GetPRODUCT_VARIANCE()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.PRODUCT_VARIANCE.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+        //[HttpGet]
+        //[Route("PRODUCT_VARIANCE_SEQUENCE")]
+        //public async Task<IActionResult> GetPRODUCT_VARIANCE_SEQUENCE()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.PRODUCT_VARIANCE_SEQUENCE.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+
+
+        //[HttpGet]
+        //[Route("PRODUCT_VENDOR")]
+        //public async Task<IActionResult> GET_PRODUCT_VENDOR()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.PRODUCT_VENDOR.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+
+        //[HttpGet]
+        //[Route("PRODUCT_VENDOR_USER_BARCODE")]
+        //public async Task<IActionResult> GET_PRODUCT_VENDOR_USER_BARCODE()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.PRODUCT_VENDOR_USER_BARCODE.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+        //[HttpGet]
+        //[Route("ProductColumnDefine")]
+        //public async Task<IActionResult> GET_ProductColumnDefine()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.ProductColumnDefine.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+
+
+
+        //[HttpGet]
+        //[Route("ProductConversionWrk")]
+        //public async Task<IActionResult> GET_ProductConversionWrk()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.ProductConversionWrk.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+        //[HttpGet]
+        //[Route("ProductExtraFieldSetup")]
+        //public async Task<IActionResult> GET_ProductExtraFieldSetup()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.ProductExtraFieldSetup.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+
+        //[HttpGet]
+        //[Route("Production")]
+        //public async Task<IActionResult> GET_Production()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.Production.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+
+        //[HttpGet]
+        //[Route("ProductionIng")]
+        //public async Task<IActionResult> GET_ProductionIng()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.ProductionIng.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+
+
+        //[HttpGet]
+        //[Route("ProductPeriodicalBarcodewiseData")]
+        //public async Task<IActionResult> GET_ProductPeriodicalBarcodewiseData()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.ProductPeriodicalBarcodewiseData.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+
+        //[HttpGet]
+        //[Route("ProductPeriodicalBarcodewiseDataLog")]
+        //public async Task<IActionResult> GET_ProductPeriodicalBarcodewiseDataLog()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.ProductPeriodicalBarcodewiseDataLog.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+        //[HttpGet]
+        //[Route("ProductRubel")]
+        //public async Task<IActionResult> GET_ProductRubel()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.ProductRubel.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+
+        //[HttpGet]
+        //[Route("PROMOTION")]
+        //public async Task<IActionResult> GET_PROMOTION()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.PROMOTION.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+        //[HttpGet]
+        //[Route("PROMOTION_BUY")]
+        //public async Task<IActionResult> GET_PROMOTION_BUY()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.PROMOTION_BUY.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+
+        //[HttpGet]
+        //[Route("PROMOTION_BUY_MONTH_YEAR")]
+        //public async Task<IActionResult> GET_PROMOTION_BUY_MONTH_YEAR()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.PROMOTION_BUY_MONTH_YEAR.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+
+        //[HttpGet]
+        //[Route("PROMOTION_GET")]
+        //public async Task<IActionResult> GET_PROMOTION_GET()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.PROMOTION_GET.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+
+
+        //[HttpGet]
+        //[Route("PROMOTION_HISTORY")]
+        //public async Task<IActionResult> GET_PROMOTION_HISTORY()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.PROMOTION_HISTORY.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+
+        //[HttpGet]
+        //[Route("PROMOTION_STORE")]
+        //public async Task<IActionResult> GET_PROMOTION_STORE()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.PROMOTION_STORE.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+
+        //[HttpGet]
+        //[Route("PROMOTION_TIME")]
+        //public async Task<IActionResult> GET_PROMOTION_TIME()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.PROMOTION_TIME.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+
+        //[HttpGet]
+        //[Route("PromotionCustomerTag")]
+        //public async Task<IActionResult> GET_PromotionCustomerTag()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.PromotionCustomerTag.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+
+        //[HttpGet]
+        //[Route("PURCHASE_ORDER")]
+        //public async Task<IActionResult> GET_PURCHASE_ORDER()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.PURCHASE_ORDER.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
         [HttpGet]
-        [Route("P_SALE")]
-        public async Task<IActionResult> GetP_SALE()
+        [Route("PURCHASE_ORDER_DETAILS")]
+        public async Task<IActionResult> GET_PURCHASE_ORDER_DETAILS()
         {
             try
             {
-                var result = await _context.P_SALE.ToListAsync();
+                var result = await _context.PURCHASE_ORDER_DETAILS.ToListAsync();
                 return Ok(result);
             }
             catch (Exception ex)
@@ -1534,12 +2394,12 @@ namespace ModelBuilderApi.Controllers
         }
 
         [HttpGet]
-        [Route("P_SALE_PAYMENT")]
-        public async Task<IActionResult> GetP_SALE_PAYMENT()
+        [Route("PURCHASE_ORDER_DETAILS_WRK")]
+        public async Task<IActionResult> GET_PURCHASE_ORDER_DETAILS_WRK()
         {
             try
             {
-                var result = await _context.P_SALE_PAYMENT.ToListAsync();
+                var result = await _context.PURCHASE_ORDER_DETAILS_WRK.ToListAsync();
                 return Ok(result);
             }
             catch (Exception ex)
@@ -1549,15 +2409,13 @@ namespace ModelBuilderApi.Controllers
 
         }
 
-
-
         [HttpGet]
-        [Route("P_SSUMMARY")]
-        public async Task<IActionResult> GetP_SSUMMARY()
+        [Route("PURCHASE_RCV_DETAILS")]
+        public async Task<IActionResult> GET_PURCHASE_RCV_DETAILS()
         {
             try
             {
-                var result = await _context.P_SSUMMARY.ToListAsync();
+                var result = await _context.PURCHASE_RCV_DETAILS.ToListAsync();
                 return Ok(result);
             }
             catch (Exception ex)
@@ -1567,14 +2425,13 @@ namespace ModelBuilderApi.Controllers
 
         }
 
-
         [HttpGet]
-        [Route("PACK_SIZE_LIST")]
-        public async Task<IActionResult> GetPACK_SIZE_LIST()
+        [Route("PURCHASE_RCV_DETAILS_WRK")]
+        public async Task<IActionResult> GET_PURCHASE_RCV_DETAILS_WRK()
         {
             try
             {
-                var result = await _context.PACK_SIZE_LIST.ToListAsync();
+                var result = await _context.PURCHASE_RCV_DETAILS_WRK.ToListAsync();
                 return Ok(result);
             }
             catch (Exception ex)
@@ -1586,12 +2443,12 @@ namespace ModelBuilderApi.Controllers
 
 
         [HttpGet]
-        [Route("PACKAGE_BOOKING_REGISTER")]
-        public async Task<IActionResult> GetPACKAGE_BOOKING_REGISTER()
+        [Route("PURCHASE_RECEIVE")]
+        public async Task<IActionResult> GET_PURCHASE_RECEIVE()
         {
             try
             {
-                var result = await _context.PACKAGE_BOOKING_REGISTER.ToListAsync();
+                var result = await _context.PURCHASE_RECEIVE.ToListAsync();
                 return Ok(result);
             }
             catch (Exception ex)
@@ -1600,79 +2457,15 @@ namespace ModelBuilderApi.Controllers
             }
 
         }
-
-        [HttpGet]
-        [Route("PACKAGE_SALE_REGISTER")]
-        public async Task<IActionResult> GetPACKAGE_SALE_REGISTER()
-        {
-            try
-            {
-                var result = await _context.PACKAGE_SALE_REGISTER.ToListAsync();
-                return Ok(result);
-            }
-            catch (Exception ex)
-            {
-                return Ok(ex.Message);
-            }
-
-        }
-
-        [HttpGet]
-        [Route("PAYMENT_METHOD")]
-        public async Task<IActionResult> GetPAYMENT_METHOD()
-        {
-            try
-            {
-                var result = await _context.PAYMENT_METHOD.ToListAsync();
-                return Ok(result);
-            }
-            catch (Exception ex)
-            {
-                return Ok(ex.Message);
-            }
-
-        }
-        [HttpGet]
-        [Route("PAYMENT_METHOD_Log")]
-        public async Task<IActionResult> GetPAYMENT_METHOD_Log()
-        {
-            try
-            {
-                var result = await _context.PAYMENT_METHOD_Log.ToListAsync();
-                return Ok(result);
-            }
-            catch (Exception ex)
-            {
-                return Ok(ex.Message);
-            }
-
-        }
-
-        [HttpGet]
-        [Route("PHYSICAL_PRODUCT_STOCK")]
-        public async Task<IActionResult> GetPHYSICAL_PRODUCT_STOCK()
-        {
-            try
-            {
-                var result = await _context.PHYSICAL_PRODUCT_STOCK.ToListAsync();
-                return Ok(result);
-            }
-            catch (Exception ex)
-            {
-                return Ok(ex.Message);
-            }
-
-        }
-
 
 
         [HttpGet]
-        [Route("PLNoteSetup")]
-        public async Task<IActionResult> GePLNoteSetup()
+        [Route("PURCHASE_RETURN")]
+        public async Task<IActionResult> GETPURCHASE_RETURN()
         {
             try
             {
-                var result = await _context.PLNoteSetup.ToListAsync();
+                var result = await _context.PURCHASE_RETURN.ToListAsync();
                 return Ok(result);
             }
             catch (Exception ex)
@@ -1681,6 +2474,8 @@ namespace ModelBuilderApi.Controllers
             }
 
         }
+
+
 
 
 
