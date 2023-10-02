@@ -217,6 +217,48 @@ namespace ModelBuilderApi
         public DbSet<STORE_SUPERVISOR> STORE_SUPERVISOR { get; set; }
         public DbSet<STORE_TRANSFER_PERMISSION> STORE_TRANSFER_PERMISSION { get; set; }
         public DbSet<StoreDelivery_Wrk> StoreDelivery_Wrk { get; set; }
+        public DbSet<StoreDeliveryDetails_wrk> StoreDeliveryDetails_wrk { get; set; }
+        public DbSet<STOREDELIVERYRECEIVE> STOREDELIVERYRECEIVE { get; set; }
+        public DbSet<StoreDML_wrk> StoreDML_wrk { get; set; }
+        public DbSet<StoreDML_wrkCustomerWise> StoreDML_wrkCustomerWise { get; set; }
+        public DbSet<StoreLogo> StoreLogo { get; set; }
+        public DbSet<StoreMetaData> StoreMetaData { get; set; }
+        public DbSet<StoreMetaDataRubel> StoreMetaDataRubel { get; set; }
+        public DbSet<StoreNotification> StoreNotification { get; set; }
+        public DbSet<StoreSetup> StoreSetup { get; set; }
+        public DbSet<StoreWiseMinimumQtyDel> StoreWiseMinimumQtyDel { get; set; }
+        public DbSet<SUB_CATEGORY> SUB_CATEGORY { get; set; }
+        public DbSet<SUB_CATEGORY_Log> SUB_CATEGORY_Log { get; set; }
+        public DbSet<SUB_SUBCATEGORY> SUB_SUBCATEGORY { get; set; }
+        public DbSet<SUB_SUBCATEGORY_Log> SUB_SUBCATEGORY_Log { get; set; }
+        public DbSet<SUB_SUBCATEGORY_VARIANCE> SUB_SUBCATEGORY_VARIANCE { get; set; }
+        public DbSet<SUB_SUBCATEGORY_VARIANCE_VALUE> SUB_SUBCATEGORY_VARIANCE_VALUE { get; set; }
+        public DbSet<SUBCATEGORY_VARIANCE> SUBCATEGORY_VARIANCE { get; set; }
+        public DbSet<SubDepartment> SubDepartment { get; set; }
+        public DbSet<SubDepartment_Log> SubDepartment_Log { get; set; }
+        public DbSet<SubSubcategory> SubSubcategory { get; set; }
+        public DbSet<Temp_BillEntry> Temp_BillEntry { get; set; }
+        public DbSet<Temp_BillPayment> Temp_BillPayment { get; set; }
+        public DbSet<TEMP_CIRCULAR_DISCOUNT> TEMP_CIRCULAR_DISCOUNT { get; set; }
+        public DbSet<TEMP_CUSTOMER_QUOTATION> TEMP_CUSTOMER_QUOTATION { get; set; }
+        public DbSet<Temp_GLHO> Temp_GLHO { get; set; }
+        public DbSet<ThirdPartySalePostingLog> ThirdPartySalePostingLog { get; set; }
+        public DbSet<UpdateRemove_Log> UpdateRemove_Log { get; set; }
+        public DbSet<UsedDiscounts> UsedDiscounts { get; set; }
+        public DbSet<USER_MENU> USER_MENU { get; set; }
+        public DbSet<USER_PRICE_PERMISSION> USER_PRICE_PERMISSION { get; set; }
+        public DbSet<USER_PRICE_SHOW_PERMISSION> USER_PRICE_SHOW_PERMISSION { get; set; }
+        public DbSet<UserMenuDistribution> UserMenuDistribution { get; set; }
+        public DbSet<USERS> USERS { get; set; }
+        public DbSet<VARIANCE_ATTRIBUTE> VARIANCE_ATTRIBUTE { get; set; }
+        public DbSet<VatIntegration> VatIntegration { get; set; }
+        public DbSet<VEHICLE> VEHICLE { get; set; }
+        public DbSet<VENDOR> VENDOR { get; set; }
+        public DbSet<VENDOR_ADDITIONAL_INFO> VENDOR_ADDITIONAL_INFO { get; set; }
+        public DbSet<VENDOR_CONTACT> VENDOR_CONTACT { get; set; }
+        public DbSet<VENDOR_Log> VENDOR_Log { get; set; }
+        public DbSet<VENDOR_REGISTRATION_INFO> VENDOR_REGISTRATION_INFO { get; set; }
+        public DbSet<VIRTUAL_STORE_INVENTORY> VIRTUAL_STORE_INVENTORY { get; set; }
 
 
 
