@@ -2377,86 +2377,86 @@ namespace ModelBuilderApi.Controllers
 
         //}
 
-        [HttpGet]
-        [Route("PURCHASE_ORDER_DETAILS")]
-        public async Task<IActionResult> GET_PURCHASE_ORDER_DETAILS()
-        {
-            try
-            {
-                var result = await _context.PURCHASE_ORDER_DETAILS.ToListAsync();
-                return Ok(result);
-            }
-            catch (Exception ex)
-            {
-                return Ok(ex.Message);
-            }
+        //[HttpGet]
+        //[Route("PURCHASE_ORDER_DETAILS")]
+        //public async Task<IActionResult> GET_PURCHASE_ORDER_DETAILS()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.PURCHASE_ORDER_DETAILS.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
 
-        }
+        //}
 
-        [HttpGet]
-        [Route("PURCHASE_ORDER_DETAILS_WRK")]
-        public async Task<IActionResult> GET_PURCHASE_ORDER_DETAILS_WRK()
-        {
-            try
-            {
-                var result = await _context.PURCHASE_ORDER_DETAILS_WRK.ToListAsync();
-                return Ok(result);
-            }
-            catch (Exception ex)
-            {
-                return Ok(ex.Message);
-            }
+        //[HttpGet]
+        //[Route("PURCHASE_ORDER_DETAILS_WRK")]
+        //public async Task<IActionResult> GET_PURCHASE_ORDER_DETAILS_WRK()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.PURCHASE_ORDER_DETAILS_WRK.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
 
-        }
+        //}
 
-        [HttpGet]
-        [Route("PURCHASE_RCV_DETAILS")]
-        public async Task<IActionResult> GET_PURCHASE_RCV_DETAILS()
-        {
-            try
-            {
-                var result = await _context.PURCHASE_RCV_DETAILS.ToListAsync();
-                return Ok(result);
-            }
-            catch (Exception ex)
-            {
-                return Ok(ex.Message);
-            }
+        //[HttpGet]
+        //[Route("PURCHASE_RCV_DETAILS")]
+        //public async Task<IActionResult> GET_PURCHASE_RCV_DETAILS()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.PURCHASE_RCV_DETAILS.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
 
-        }
+        //}
 
-        [HttpGet]
-        [Route("PURCHASE_RCV_DETAILS_WRK")]
-        public async Task<IActionResult> GET_PURCHASE_RCV_DETAILS_WRK()
-        {
-            try
-            {
-                var result = await _context.PURCHASE_RCV_DETAILS_WRK.ToListAsync();
-                return Ok(result);
-            }
-            catch (Exception ex)
-            {
-                return Ok(ex.Message);
-            }
+        //[HttpGet]
+        //[Route("PURCHASE_RCV_DETAILS_WRK")]
+        //public async Task<IActionResult> GET_PURCHASE_RCV_DETAILS_WRK()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.PURCHASE_RCV_DETAILS_WRK.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
 
-        }
+        //}
 
 
-        [HttpGet]
-        [Route("PURCHASE_RECEIVE")]
-        public async Task<IActionResult> GET_PURCHASE_RECEIVE()
-        {
-            try
-            {
-                var result = await _context.PURCHASE_RECEIVE.ToListAsync();
-                return Ok(result);
-            }
-            catch (Exception ex)
-            {
-                return Ok(ex.Message);
-            }
+        //[HttpGet]
+        //[Route("PURCHASE_RECEIVE")]
+        //public async Task<IActionResult> GET_PURCHASE_RECEIVE()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.PURCHASE_RECEIVE.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
 
-        }
+        //}
 
 
         [HttpGet]
@@ -2475,6 +2475,182 @@ namespace ModelBuilderApi.Controllers
 
         }
 
+
+        [HttpGet]
+        [Route("PURCHASE_RETURN_DETAILS")]
+        public async Task<IActionResult> GEPURCHASE_RETURN_DETAILS()
+        {
+            try
+            {
+                var result = await _context.PURCHASE_RETURN_DETAILS.ToListAsync();
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return Ok(ex.Message);
+            }
+
+        }
+
+
+
+        [HttpGet]
+        [Route("PURCHASE_RETURN_DETAILS_WRK")]
+        public async Task<IActionResult> GE_PURCHASE_RETURN_DETAILS_WRK()
+        {
+            try
+            {
+                var result = await _context.PURCHASE_RETURN_DETAILS_WRK.ToListAsync();
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return Ok(ex.Message);
+            }
+
+        }
+
+
+
+        [HttpGet]
+        [Route("PurchaseGL")]
+        public async Task<IActionResult> GE_PurchaseGL()
+        {
+            try
+            {
+                var result = await _context.PurchaseGL.ToListAsync();
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return Ok(ex.Message);
+            }
+
+        }
+
+
+        [HttpGet]
+        [Route("PurchaseOrderGL")]
+        public async Task<IActionResult> GE_PurchaseOrderGL()
+        {
+            try
+            {
+                var result = await _context.PurchaseOrderGL.ToListAsync();
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return Ok(ex.Message);
+            }
+
+        }
+
+
+        [HttpGet]
+        [Route("PurchaseOrderGLLog")]
+        public async Task<IActionResult> GE_PurchaseOrderGLLog()
+        {
+            try
+            {
+                var result = await _context.PurchaseOrderGLLog.ToListAsync();
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return Ok(ex.Message);
+            }
+
+        }
+
+
+        [HttpGet]
+        [Route("REASON")]
+        public async Task<IActionResult> GE_REASON()
+        {
+            try
+            {
+                var result = await _context.REASON.ToListAsync();
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return Ok(ex.Message);
+            }
+
+        }
+
+
+
+        [HttpGet]
+        [Route("REJ_STORE_DELIVERY_DETAILS")]
+        public async Task<IActionResult> GE_REJ_STORE_DELIVERY_DETAILS()
+        {
+            try
+            {
+                var result = await _context.REJ_STORE_DELIVERY_DETAILS.ToListAsync();
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return Ok(ex.Message);
+            }
+
+        }
+
+
+
+
+        [HttpGet]
+        [Route("ReOrderSetup")]
+        public async Task<IActionResult> GE_ReOrderSetup()
+        {
+            try
+            {
+                var result = await _context.ReOrderSetup.ToListAsync();
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return Ok(ex.Message);
+            }
+
+        }
+
+
+
+        [HttpGet]
+        [Route("ReportHead")]
+        public async Task<IActionResult> GE_ReportHead()
+        {
+            try
+            {
+                var result = await _context.ReportHead.ToListAsync();
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return Ok(ex.Message);
+            }
+
+        }
+
+
+
+        [HttpGet]
+        [Route("ReportLog")]
+        public async Task<IActionResult> GE_ReportLog()
+        {
+            try
+            {
+                var result = await _context.ReportLog.ToListAsync();
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return Ok(ex.Message);
+            }
+
+        }
 
 
 

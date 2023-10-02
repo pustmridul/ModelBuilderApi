@@ -173,6 +173,16 @@ namespace ModelBuilderApi
         public DbSet<PURCHASE_RCV_DETAILS_WRK> PURCHASE_RCV_DETAILS_WRK { get; set; }
         public DbSet<PURCHASE_RECEIVE> PURCHASE_RECEIVE { get; set; }
         public DbSet<PURCHASE_RETURN> PURCHASE_RETURN { get; set; }
+        public DbSet<PURCHASE_RETURN_DETAILS> PURCHASE_RETURN_DETAILS { get; set; }
+        public DbSet<PURCHASE_RETURN_DETAILS_WRK> PURCHASE_RETURN_DETAILS_WRK { get; set; }
+        public DbSet<PurchaseGL> PurchaseGL { get; set; }
+        public DbSet<PurchaseOrderGL> PurchaseOrderGL { get; set; }
+        public DbSet<PurchaseOrderGLLog> PurchaseOrderGLLog { get; set; }
+        public DbSet<REASON> REASON { get; set; }
+        public DbSet<REJ_STORE_DELIVERY_DETAILS> REJ_STORE_DELIVERY_DETAILS { get; set; }
+        public DbSet<ReOrderSetup> ReOrderSetup { get; set; }
+        public DbSet<ReportHead> ReportHead { get; set; }
+        public DbSet<ReportLog> ReportLog { get; set; }
 
 
 
