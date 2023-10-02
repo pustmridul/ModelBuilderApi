@@ -2459,13 +2459,641 @@ namespace ModelBuilderApi.Controllers
         //}
 
 
+        //[HttpGet]
+        //[Route("PURCHASE_RETURN")]
+        //public async Task<IActionResult> GETPURCHASE_RETURN()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.PURCHASE_RETURN.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+
+        //[HttpGet]
+        //[Route("PURCHASE_RETURN_DETAILS")]
+        //public async Task<IActionResult> GEPURCHASE_RETURN_DETAILS()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.PURCHASE_RETURN_DETAILS.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+
+
+        //[HttpGet]
+        //[Route("PURCHASE_RETURN_DETAILS_WRK")]
+        //public async Task<IActionResult> GE_PURCHASE_RETURN_DETAILS_WRK()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.PURCHASE_RETURN_DETAILS_WRK.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+
+
+        //[HttpGet]
+        //[Route("PurchaseGL")]
+        //public async Task<IActionResult> GE_PurchaseGL()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.PurchaseGL.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+
+        //[HttpGet]
+        //[Route("PurchaseOrderGL")]
+        //public async Task<IActionResult> GE_PurchaseOrderGL()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.PurchaseOrderGL.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+
+        //[HttpGet]
+        //[Route("PurchaseOrderGLLog")]
+        //public async Task<IActionResult> GE_PurchaseOrderGLLog()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.PurchaseOrderGLLog.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+
+        //[HttpGet]
+        //[Route("REASON")]
+        //public async Task<IActionResult> GE_REASON()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.REASON.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+
+
+        //[HttpGet]
+        //[Route("REJ_STORE_DELIVERY_DETAILS")]
+        //public async Task<IActionResult> GE_REJ_STORE_DELIVERY_DETAILS()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.REJ_STORE_DELIVERY_DETAILS.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+
+
+
+        //[HttpGet]
+        //[Route("ReOrderSetup")]
+        //public async Task<IActionResult> GE_ReOrderSetup()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.ReOrderSetup.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+
+
+        //[HttpGet]
+        //[Route("ReportHead")]
+        //public async Task<IActionResult> GE_ReportHead()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.ReportHead.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+
+
+        //[HttpGet]
+        //[Route("ReportLog")]
+        //public async Task<IActionResult> GE_ReportLog()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.ReportLog.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+
+
+
+        //[HttpGet]
+        //[Route("ReportSection")]
+        //public async Task<IActionResult> GE_ReportSection()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.ReportSection.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+        //[HttpGet]
+        //[Route("ROLE")]
+        //public async Task<IActionResult> GE_ROLE()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.ROLE.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+        //[HttpGet]
+        //[Route("ROLE_MENU")]
+        //public async Task<IActionResult> GE_ROLE_MENU()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.ROLE_MENU.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+
+        //[HttpGet]
+        //[Route("SALE")]
+        //public async Task<IActionResult> GE_SALE()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.SALE.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+
+
+
+        //[HttpGet]
+        //[Route("SALE_ORDER")]
+        //public async Task<IActionResult> GE_SALE_ORDER()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.SALE_ORDER.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+
+        //[HttpGet]
+        //[Route("SALE_ORDER_DETAILS")]
+        //public async Task<IActionResult> GE_SALE_ORDER_DETAILS()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.SALE_ORDER_DETAILS.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+
+        //[HttpGet]
+        //[Route("SALE_PAYMENT")]
+        //public async Task<IActionResult> GE_SALE_PAYMENT()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.SALE_PAYMENT.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+
+        //[HttpGet]
+        //[Route("SALE_PAYMENT_HIS")]
+        //public async Task<IActionResult> GE_SALE_PAYMENT_HIS()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.SALE_PAYMENT_HIS.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+
+
+
+
+        //[HttpGet]
+        //[Route("Sale_wrk")]
+        //public async Task<IActionResult> GE_Sale_wrk()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.Sale_wrk.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+
+        //[HttpGet]
+        //[Route("SalePayment_His")]
+        //public async Task<IActionResult> GE_SalePayment_His()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.SalePayment_His.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+
+        //[HttpGet]
+        //[Route("SalePayment_wrk")]
+        //public async Task<IActionResult> GE_SalePayment_wrk()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.SalePayment_wrk.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+
+
+        //[HttpGet]
+        //[Route("ShopList")]
+        //public async Task<IActionResult> GE_ShopList()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.ShopList.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+
+        //[HttpGet]
+        //[Route("SmsGateway")]
+        //public async Task<IActionResult> GE_SmsGateway()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.SmsGateway.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+
+
+        //[HttpGet]
+        //[Route("SmsHistory")]
+        //public async Task<IActionResult> GE_SmsHistory()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.SmsHistory.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+        //[HttpGet]
+        //[Route("SmsTemplate")]
+        //public async Task<IActionResult> GE_SmsTemplate()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.SmsTemplate.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+        //[HttpGet]
+        //[Route("SSUMMARY")]
+        //public async Task<IActionResult> GE_SSUMMARY()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.SSUMMARY.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+
+        //[HttpGet]
+        //[Route("STORE")]
+        //public async Task<IActionResult> GE_STORE()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.STORE.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+
+        //[HttpGet]
+        //[Route("STORE_ALLOCATION")]
+        //public async Task<IActionResult> GE_STORE_ALLOCATION()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.STORE_ALLOCATION.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+
+
+        //[HttpGet]
+        //[Route("STORE_ALLOCATION_SETUP")]
+        //public async Task<IActionResult> GE_STORE_ALLOCATION_SETUP()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.STORE_ALLOCATION_SETUP.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+
+
+        //[HttpGet]
+        //[Route("STORE_ALLOCATION_WRK")]
+        //public async Task<IActionResult> GE_STORE_ALLOCATION_WRK()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.STORE_ALLOCATION_WRK.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+
+
+        //[HttpGet]
+        //[Route("STORE_BRAND")]
+        //public async Task<IActionResult> GE_STORE_BRAND()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.STORE_BRAND.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+
+
+        //[HttpGet]
+        //[Route("STORE_DAMAGE_DELIVERY_RECEIVE")]
+        //public async Task<IActionResult> GE_STORE_DAMAGE_DELIVERY_RECEIVE()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.STORE_DAMAGE_DELIVERY_RECEIVE.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+
+        //[HttpGet]
+        //[Route("STORE_DELIVERY")]
+        //public async Task<IActionResult> GE_STORE_DELIVERY()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.STORE_DELIVERY.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+
+
+        //[HttpGet]
+        //[Route("STORE_DELIVERY_DETAILS")]
+        //public async Task<IActionResult> GE_STORE_DELIVERY_DETAILS()
+        //{
+        //    try
+        //    {
+        //        var result = await _context.STORE_DELIVERY_DETAILS.ToListAsync();
+        //        return Ok(result);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return Ok(ex.Message);
+        //    }
+
+        //}
+
+
         [HttpGet]
-        [Route("PURCHASE_RETURN")]
-        public async Task<IActionResult> GETPURCHASE_RETURN()
+        [Route("STORE_DELIVERY_DETAILS_DISCP_LOG")]
+        public async Task<IActionResult> GE_STORE_DELIVERY_DETAILS_DISCP_LOG()
         {
             try
             {
-                var result = await _context.PURCHASE_RETURN.ToListAsync();
+                var result = await _context.STORE_DELIVERY_DETAILS_DISCP_LOG.ToListAsync();
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return Ok(ex.Message);
+            }
+
+        }
+
+        [HttpGet]
+        [Route("STORE_DELIVERY_REGISTER")]
+        public async Task<IActionResult> GE_STORE_DELIVERY_REGISTER()
+        {
+            try
+            {
+                var result = await _context.STORE_DELIVERY_REGISTER.ToListAsync();
                 return Ok(result);
             }
             catch (Exception ex)
@@ -2477,48 +3105,12 @@ namespace ModelBuilderApi.Controllers
 
 
         [HttpGet]
-        [Route("PURCHASE_RETURN_DETAILS")]
-        public async Task<IActionResult> GEPURCHASE_RETURN_DETAILS()
+        [Route("STORE_DML")]
+        public async Task<IActionResult> GE_STORE_DML()
         {
             try
             {
-                var result = await _context.PURCHASE_RETURN_DETAILS.ToListAsync();
-                return Ok(result);
-            }
-            catch (Exception ex)
-            {
-                return Ok(ex.Message);
-            }
-
-        }
-
-
-
-        [HttpGet]
-        [Route("PURCHASE_RETURN_DETAILS_WRK")]
-        public async Task<IActionResult> GE_PURCHASE_RETURN_DETAILS_WRK()
-        {
-            try
-            {
-                var result = await _context.PURCHASE_RETURN_DETAILS_WRK.ToListAsync();
-                return Ok(result);
-            }
-            catch (Exception ex)
-            {
-                return Ok(ex.Message);
-            }
-
-        }
-
-
-
-        [HttpGet]
-        [Route("PurchaseGL")]
-        public async Task<IActionResult> GE_PurchaseGL()
-        {
-            try
-            {
-                var result = await _context.PurchaseGL.ToListAsync();
+                var result = await _context.STORE_DML.ToListAsync();
                 return Ok(result);
             }
             catch (Exception ex)
@@ -2530,12 +3122,12 @@ namespace ModelBuilderApi.Controllers
 
 
         [HttpGet]
-        [Route("PurchaseOrderGL")]
-        public async Task<IActionResult> GE_PurchaseOrderGL()
+        [Route("STORE_DML_CUSTOMER_WISE")]
+        public async Task<IActionResult> GE_STORE_DML_CUSTOMER_WISE()
         {
             try
             {
-                var result = await _context.PurchaseOrderGL.ToListAsync();
+                var result = await _context.STORE_DML_CUSTOMER_WISE.ToListAsync();
                 return Ok(result);
             }
             catch (Exception ex)
@@ -2547,47 +3139,12 @@ namespace ModelBuilderApi.Controllers
 
 
         [HttpGet]
-        [Route("PurchaseOrderGLLog")]
-        public async Task<IActionResult> GE_PurchaseOrderGLLog()
+        [Route("STORE_PRODUCT_BARCODE")]
+        public async Task<IActionResult> GE_STORE_PRODUCT_BARCODE()
         {
             try
             {
-                var result = await _context.PurchaseOrderGLLog.ToListAsync();
-                return Ok(result);
-            }
-            catch (Exception ex)
-            {
-                return Ok(ex.Message);
-            }
-
-        }
-
-
-        [HttpGet]
-        [Route("REASON")]
-        public async Task<IActionResult> GE_REASON()
-        {
-            try
-            {
-                var result = await _context.REASON.ToListAsync();
-                return Ok(result);
-            }
-            catch (Exception ex)
-            {
-                return Ok(ex.Message);
-            }
-
-        }
-
-
-
-        [HttpGet]
-        [Route("REJ_STORE_DELIVERY_DETAILS")]
-        public async Task<IActionResult> GE_REJ_STORE_DELIVERY_DETAILS()
-        {
-            try
-            {
-                var result = await _context.REJ_STORE_DELIVERY_DETAILS.ToListAsync();
+                var result = await _context.STORE_PRODUCT_BARCODE.ToListAsync();
                 return Ok(result);
             }
             catch (Exception ex)
@@ -2601,12 +3158,12 @@ namespace ModelBuilderApi.Controllers
 
 
         [HttpGet]
-        [Route("ReOrderSetup")]
-        public async Task<IActionResult> GE_ReOrderSetup()
+        [Route("STORE_REQUISITION")]
+        public async Task<IActionResult> GE_STORE_REQUISITION()
         {
             try
             {
-                var result = await _context.ReOrderSetup.ToListAsync();
+                var result = await _context.STORE_REQUISITION.ToListAsync();
                 return Ok(result);
             }
             catch (Exception ex)
@@ -2619,12 +3176,29 @@ namespace ModelBuilderApi.Controllers
 
 
         [HttpGet]
-        [Route("ReportHead")]
-        public async Task<IActionResult> GE_ReportHead()
+        [Route("STORE_REQUISITION_WRK")]
+        public async Task<IActionResult> GE_STORE_REQUISITION_WRK()
         {
             try
             {
-                var result = await _context.ReportHead.ToListAsync();
+                var result = await _context.STORE_REQUISITION_WRK.ToListAsync();
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return Ok(ex.Message);
+            }
+
+        }
+
+
+        [HttpGet]
+        [Route("STORE_SUPERVISOR")]
+        public async Task<IActionResult> GE_STORE_SUPERVISOR()
+        {
+            try
+            {
+                var result = await _context.STORE_SUPERVISOR.ToListAsync();
                 return Ok(result);
             }
             catch (Exception ex)
@@ -2637,12 +3211,12 @@ namespace ModelBuilderApi.Controllers
 
 
         [HttpGet]
-        [Route("ReportLog")]
-        public async Task<IActionResult> GE_ReportLog()
+        [Route("STORE_TRANSFER_PERMISSION")]
+        public async Task<IActionResult> GE_STORE_TRANSFER_PERMISSION()
         {
             try
             {
-                var result = await _context.ReportLog.ToListAsync();
+                var result = await _context.STORE_TRANSFER_PERMISSION.ToListAsync();
                 return Ok(result);
             }
             catch (Exception ex)
@@ -2651,6 +3225,25 @@ namespace ModelBuilderApi.Controllers
             }
 
         }
+
+
+        [HttpGet]
+        [Route("StoreDelivery_Wrk")]
+        public async Task<IActionResult> GE_StoreDelivery_Wrk()
+        {
+            try
+            {
+                var result = await _context.StoreDelivery_Wrk.ToListAsync();
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return Ok(ex.Message);
+            }
+
+        }
+
+
 
 
 

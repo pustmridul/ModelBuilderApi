@@ -183,6 +183,40 @@ namespace ModelBuilderApi
         public DbSet<ReOrderSetup> ReOrderSetup { get; set; }
         public DbSet<ReportHead> ReportHead { get; set; }
         public DbSet<ReportLog> ReportLog { get; set; }
+        public DbSet<ReportSection> ReportSection { get; set; }
+        public DbSet<ROLE> ROLE { get; set; }
+        public DbSet<ROLE_MENU> ROLE_MENU { get; set; }
+        public DbSet<SALE> SALE { get; set; }
+        public DbSet<SALE_ORDER> SALE_ORDER { get; set; }
+        public DbSet<SALE_ORDER_DETAILS> SALE_ORDER_DETAILS { get; set; }
+        public DbSet<SALE_PAYMENT> SALE_PAYMENT { get; set; }
+        public DbSet<SALE_PAYMENT_HIS> SALE_PAYMENT_HIS { get; set; }
+        public DbSet<Sale_wrk> Sale_wrk { get; set; }
+        public DbSet<SalePayment_His> SalePayment_His { get; set; }
+        public DbSet<SalePayment_wrk> SalePayment_wrk { get; set; }
+        public DbSet<ShopList> ShopList { get; set; }
+        public DbSet<SmsGateway> SmsGateway { get; set; }
+        public DbSet<SmsHistory> SmsHistory { get; set; }
+        public DbSet<SmsTemplate> SmsTemplate { get; set; }
+        public DbSet<SSUMMARY> SSUMMARY { get; set; }
+        public DbSet<STORE> STORE { get; set; }
+        public DbSet<STORE_ALLOCATION> STORE_ALLOCATION { get; set; }
+        public DbSet<STORE_ALLOCATION_SETUP> STORE_ALLOCATION_SETUP { get; set; }
+        public DbSet<STORE_ALLOCATION_WRK> STORE_ALLOCATION_WRK { get; set; }
+        public DbSet<STORE_BRAND> STORE_BRAND { get; set; }
+        public DbSet<STORE_DAMAGE_DELIVERY_RECEIVE> STORE_DAMAGE_DELIVERY_RECEIVE { get; set; }
+        public DbSet<STORE_DELIVERY> STORE_DELIVERY { get; set; }
+        public DbSet<STORE_DELIVERY_DETAILS> STORE_DELIVERY_DETAILS { get; set; }
+        public DbSet<STORE_DELIVERY_DETAILS_DISCP_LOG> STORE_DELIVERY_DETAILS_DISCP_LOG { get; set; }
+        public DbSet<STORE_DELIVERY_REGISTER> STORE_DELIVERY_REGISTER { get; set; }
+        public DbSet<STORE_DML> STORE_DML { get; set; }
+        public DbSet<STORE_DML_CUSTOMER_WISE> STORE_DML_CUSTOMER_WISE { get; set; }
+        public DbSet<STORE_PRODUCT_BARCODE> STORE_PRODUCT_BARCODE { get; set; }
+        public DbSet<STORE_REQUISITION> STORE_REQUISITION { get; set; }
+        public DbSet<STORE_REQUISITION_WRK> STORE_REQUISITION_WRK { get; set; }
+        public DbSet<STORE_SUPERVISOR> STORE_SUPERVISOR { get; set; }
+        public DbSet<STORE_TRANSFER_PERMISSION> STORE_TRANSFER_PERMISSION { get; set; }
+        public DbSet<StoreDelivery_Wrk> StoreDelivery_Wrk { get; set; }
 
 
 
