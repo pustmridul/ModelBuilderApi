@@ -259,6 +259,10 @@ namespace ModelBuilderApi
         public DbSet<VENDOR_Log> VENDOR_Log { get; set; }
         public DbSet<VENDOR_REGISTRATION_INFO> VENDOR_REGISTRATION_INFO { get; set; }
         public DbSet<VIRTUAL_STORE_INVENTORY> VIRTUAL_STORE_INVENTORY { get; set; }
+        public DbSet<WeighingScaleSetup> WeighingScaleSetup { get; set; }
+        public DbSet<WorkOrderGL> WorkOrderGL { get; set; }
+        public DbSet<WorkOrderGLLog> WorkOrderGLLog { get; set; }
+        public DbSet<WORKSTATION> WORKSTATION { get; set; }
 
 
 

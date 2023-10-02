@@ -3957,6 +3957,70 @@ namespace ModelBuilderApi.Controllers
 
         }
 
+        [HttpGet]
+        [Route("WeighingScaleSetup")]
+        public async Task<IActionResult> GET_WeighingScaleSetup()
+        {
+            try
+            {
+                var result = await _context.WeighingScaleSetup.ToListAsync();
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return Ok(ex.Message);
+            }
+
+        }
+
+
+        [HttpGet]
+        [Route("WorkOrderGL")]
+        public async Task<IActionResult> GET_WorkOrderGL()
+        {
+            try
+            {
+                var result = await _context.WorkOrderGL.ToListAsync();
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return Ok(ex.Message);
+            }
+
+        }
+
+        [HttpGet]
+        [Route("WorkOrderGLLog")]
+        public async Task<IActionResult> GET_WorkOrderGLLog()
+        {
+            try
+            {
+                var result = await _context.WorkOrderGLLog.ToListAsync();
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return Ok(ex.Message);
+            }
+
+        }
+
+        [HttpGet]
+        [Route("WORKSTATION")]
+        public async Task<IActionResult> GET_WORKSTATION()
+        {
+            try
+            {
+                var result = await _context.WORKSTATION.ToListAsync();
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return Ok(ex.Message);
+            }
+
+        }
 
     }
 }
