@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using ModelBuilderApi.Entity;
+using ModelBuilderApi.QueryResultModels;
 using System.Collections.Generic;
 using System.Drawing;
 
@@ -263,6 +264,7 @@ namespace ModelBuilderApi
         public DbSet<WorkOrderGL> WorkOrderGL { get; set; }
         public DbSet<WorkOrderGLLog> WorkOrderGLLog { get; set; }
         public DbSet<WORKSTATION> WORKSTATION { get; set; }
+        public DbSet<GetTempSaleQueryResult> GetTempSaleQueryResult { get; set; }
 
 
 
