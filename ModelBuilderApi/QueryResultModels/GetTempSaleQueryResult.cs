@@ -2,7 +2,6 @@
 
 namespace ModelBuilderApi.QueryResultModels
 {
-    [Table("GetTempSaleQueryResult")]
     public class GetTempSaleQueryResult
     {
         public string? BARCODE { get; set; }
