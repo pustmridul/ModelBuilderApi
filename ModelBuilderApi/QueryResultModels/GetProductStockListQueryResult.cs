@@ -23,7 +23,7 @@
         public string? CATEGORY_CODE { get; set; }
         public string Category_name { get; set; }
         public string? SUB_CATEGORY_CODE { get; set; }
-        public string Sub_category_name { get; set; }
+        public string sub_category_name { get; set; }
         public string? BRAND_CODE { get; set; }
         public string Brand_Name { get; set; }
         public string? SAL_UOM_NAME { get; set; }
@@ -56,47 +56,19 @@
 
         // For VW_PRODUCT
 
-        
 
         public decimal LAST_PUR_PRICE { get; set; }
         public decimal MRP { get; set; }
-        public string category_name { get; set; }
-        public string sub_category_name { get; set; }
         public bool IS_BARGAIN_SALE { get; set; }
         public decimal? CONV_IN { get; set; }
         public decimal? CONV_OUT { get; set; }
-
-        //Not Coloumn Found  In BengalMeat Database
-        public bool? IS_MANUFACTURE_DT_REQUIRED { get; set; }
         public decimal? IS_EXPIRY_ITEM { get; set; }
-
-        //Not Coloumn Found  In BengalMeat Database
-        public string? BARCODE_INCLUDE { get; set; }
         public bool IS_PUR_PRICE_INCLD_VAT { get; set; }
         public string? PUR_UOM_NAME { get; set; }
-
-        //Not Coloumn Found  In BengalMeat Database
-        public string? DEPARTMENT_CODE { get; set; }
-        //Not Coloumn Found  In BengalMeat Database
-        public string? SUB_DEPARTMENT_CODE { get; set; }
-        //Not Coloumn Found  In BengalMeat Database
-        public string? SUB_SUBCATEGORY_CODE { get; set; }
-        //Not Coloumn Found  In BengalMeat Database
-        public decimal? pack_size { get; set; }
         public decimal CARTON_SIZE { get; set; }
         public decimal PUR_VAT_PERCENT { get; set; }
         public string SDC_SD_CODE { get; set; }
         public string SDC_VAT_CODE { get; set; }
-        //Not Coloumn Found  In BengalMeat Database
-        public string? MANUFACTURER_CODE { get; set; }
-        //Not Coloumn Found  In BengalMeat Database
-        public string? MANUFACTURER_NAME { get; set; }
-        //Not Coloumn Found  In BengalMeat Database
-        public bool? IS_BATCH_REQUIRED { get; set; }
-        //Not Coloumn Found  In BengalMeat Database
-        public string? BSTI { get; set; }
-        //Not Coloumn Found  In BengalMeat Database
-        public string? ARTICLE_NO { get; set; }
         public string? VENDOR_CODE01 { get; set; }
         public string? VENDOR_NAME01 { get; set; }
         public string? VENDOR_CODE02 { get; set; }
@@ -156,6 +128,19 @@
 
 
 
+
+        //No Coloumn Found  In BengalMeat Database
+        public bool? IS_MANUFACTURE_DT_REQUIRED { get; set; }
+        public string? BARCODE_INCLUDE { get; set; }
+        public string? DEPARTMENT_CODE { get; set; }
+        public string? SUB_DEPARTMENT_CODE { get; set; }
+        public string? SUB_SUBCATEGORY_CODE { get; set; }
+        public decimal? pack_size { get; set; }
+        public string? MANUFACTURER_CODE { get; set; }
+        public string? MANUFACTURER_NAME { get; set; }
+        public bool? IS_BATCH_REQUIRED { get; set; }
+        public string? BSTI { get; set; }
+        public string? ARTICLE_NO { get; set; }
 
     }
 }
