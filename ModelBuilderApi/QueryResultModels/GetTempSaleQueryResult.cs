@@ -69,5 +69,7 @@ namespace ModelBuilderApi.QueryResultModels
          public string? HOLD_TOKEN2 { get; set; }
          public string? HOLD_TIME2 { get; set; }
          public decimal? RTN_SD_AMT { get; set; }
+
     }
 }
+
