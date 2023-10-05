@@ -26,9 +26,8 @@ namespace ModelBuilderApi.DTOs
         public string? SPECIAL_DATE_NOTE { get; set; }
         public string? AGE_RANGE { get; set; }
         public string? CUSTOMER_TYPE { get; set; }
-
-
     }
+
     public class CustomerReq : Customer
     {
         public int ID { get; set; }
