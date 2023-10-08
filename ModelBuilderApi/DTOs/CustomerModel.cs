@@ -114,6 +114,29 @@ namespace ModelBuilderApi.DTOs
         // Extra fields
         public decimal RDM_POINT_VAL { get; set; }
 
+        // from others below -> from CustomerTypeReq
+        public string? Group_Type { get; set; }
+
+        public string Group_Name { get; set; }
+
+        public decimal? Discount_Prcnt { get; set; }
+
+        public string? Company_Code { get; set; }
+
+        public string? Entery_by { get; set; }
+
+
+        public string? Updated_by { get; set; }
+
+      
+
+        public string PROMO_PRICE { get; set; }
+
+        public bool? SCAN_CARD_ON_SAL { get; set; }
+        public bool GiftVoucherDeliveryToCustomer { get; set; }
+
+
+
     }
     public class CustomerResVm
     {
@@ -131,6 +154,7 @@ namespace ModelBuilderApi.DTOs
     public class CustomerCardReq : CustomerModel
     {
         public string TRANSFER { get; set; }
+
     }
     public class CustomerCardVm
     {
