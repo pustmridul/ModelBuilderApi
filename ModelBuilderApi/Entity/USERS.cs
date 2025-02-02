@@ -3,8 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("USERS")]
-    public class USERS
+    public class User
     {
         [Key]
         public string USERNAME { get; set; }
