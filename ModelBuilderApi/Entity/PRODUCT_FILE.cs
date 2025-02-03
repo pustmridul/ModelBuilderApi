@@ -3,13 +3,13 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("PRODUCT_FILE")]
+   
     public class PRODUCT_FILE
     {
-        [Key]
+        
         public string COMPANY_CODE { get; set; }
         public string Company_Name { get; set; }
-        [Key]
+       
         public string BARCODE { get; set; }
         public string SBARCODE { get; set; }
         public string? USER_BARCODE { get; set; }

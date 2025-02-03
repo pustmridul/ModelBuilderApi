@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("ProductPeriodicalBarcodewiseData")]
+   
     public class ProductPeriodicalBarcodewiseData
     {
         public DateTime? EntryDate { get; set; }

@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("STORE_ALLOCATION_WRK")]
+    
     public class STORE_ALLOCATION_WRK
     {
         public string? ALLOCATION_STORE_CODE { get; set; }

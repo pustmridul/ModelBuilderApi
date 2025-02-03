@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("SalePayment_His")]
+   
     public class SalePayment_His
     {
 

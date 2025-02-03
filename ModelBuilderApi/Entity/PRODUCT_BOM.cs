@@ -3,14 +3,14 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("PRODUCT_BOM")]
+   
     public class PRODUCT_BOM
     {
-        [Key]
+        
         public string BARCODE { get; set; }
-        [Key]
+        
         public string ING_BARCODE { get; set; }
-        [Key]
+        
         public string COMPANY_CODE { get; set; }
         public string ENTRY_BY { get; set; }
         public DateTime ENTRY_DATE { get; set; }

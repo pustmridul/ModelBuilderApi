@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("InvTrackingDetails")]
+    
     public class InvTrackingDetails
     {
         public string? Barcode { get; set; }

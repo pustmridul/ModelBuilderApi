@@ -3,10 +3,10 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("PRODUCT_OPTIONS")]
+  
     public class PRODUCT_OPTIONS
     {
-        [Key]
+        
         public string BARCODE { get; set; }
         public string? A1 { get; set; }
         public string? A2 { get; set; }

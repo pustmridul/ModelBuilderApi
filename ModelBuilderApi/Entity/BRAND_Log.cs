@@ -2,8 +2,8 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("BRAND_Log")]
-    public class BRAND_Log
+   
+    public class BrandLog
     {
         public string CODE { get; set; }
         public string BRAND_NAME { get; set; }

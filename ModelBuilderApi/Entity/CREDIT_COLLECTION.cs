@@ -3,17 +3,17 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("CREDIT_COLLECTION")]
-    public class CREDIT_COLLECTION
+    
+    public class CreditCollection 
     {
-        [Key]
+        
         public string COMPANY_CODE { get; set; }
-        [Key]
+        
         public string STORE_CODE { get; set; }
-        [Key]
+       
         public string TERMINAL_NO { get; set; }
         public DateTime? DATE { get; set; }
-        [Key]
+       
         public string VOUCHER_NO { get; set; }
         public string? CUSTOMER_CODE { get; set; }
         public decimal? DEBIT_AMT { get; set; }

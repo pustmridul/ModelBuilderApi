@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("EmployeeAttachedStore")]
+    
     public class EmployeeAttachedStore
     {
         public decimal ID { get; set; }

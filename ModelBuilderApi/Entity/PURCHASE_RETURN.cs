@@ -3,16 +3,16 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("PURCHASE_RETURN")]
+    
     public class PURCHASE_RETURN
     {
-        [Key]
+      
         public string CHALLAN_NO { get; set; }
         public DateTime RTN_DT { get; set; }
         public string? REF_NO { get; set; }
-        [Key]
+       
         public string COMPANY_CODE { get; set; }
-        [Key]
+        
         public string STORE_CODE { get; set; }
         public decimal TOTAL_QTY { get; set; }
         public decimal TOTAL_VALUE { get; set; }

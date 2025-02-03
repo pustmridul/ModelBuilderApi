@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("SUBCATEGORY_VARIANCE")]
+   
     public class SUBCATEGORY_VARIANCE
     {
         public string? SUB_CATEGORY_CODE { get; set; }

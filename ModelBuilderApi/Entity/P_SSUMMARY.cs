@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("P_SSUMMARY")]
+    
     public class P_SSUMMARY
     {
 

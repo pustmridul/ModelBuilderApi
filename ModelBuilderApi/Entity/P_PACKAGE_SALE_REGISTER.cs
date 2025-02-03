@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("P_PACKAGE_SALE_REGISTER")]
+   
     public class P_PACKAGE_SALE_REGISTER
     {
         public string? PACKAGE_CODE { get; set; }

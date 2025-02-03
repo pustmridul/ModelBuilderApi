@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("Card_Type")]
+    
     public class CardType
     {
         public string? Card_Type { get; set; }

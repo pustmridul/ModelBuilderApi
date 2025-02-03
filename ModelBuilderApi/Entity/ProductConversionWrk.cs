@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("ProductConversionWrk")]
+   
     public class ProductConversionWrk
     {
         public string? BARCODE { get; set; }

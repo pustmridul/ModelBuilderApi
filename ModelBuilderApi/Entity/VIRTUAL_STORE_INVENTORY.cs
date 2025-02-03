@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("VIRTUAL_STORE_INVENTORY")]
+   
     public class VIRTUAL_STORE_INVENTORY
     {
         public string? SESSION_CODE { get; set; }

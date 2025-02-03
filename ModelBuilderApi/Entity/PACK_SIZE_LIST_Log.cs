@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("PACK_SIZE_LIST_Log")]
+    
     public class PACK_SIZE_LIST_Log
     {
         public decimal CODE { get; set; }

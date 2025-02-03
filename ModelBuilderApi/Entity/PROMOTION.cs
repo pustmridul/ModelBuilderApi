@@ -3,10 +3,10 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("PROMOTION")]
+   
     public class PROMOTION
     {
-        [Key]
+       
         public string PROMOTION_CODE { get; set; }
         public string? PROMOTION_NAME { get; set; }
         public string? PROMOTION_TYPE { get; set; }
@@ -17,7 +17,7 @@ namespace ModelBuilderApi.Entity
         public DateTime? VALID_TO { get; set; }
         public decimal ACTUAL_PRICE { get; set; }
         public decimal PROMOTION_PRICE { get; set; }
-        [Key]
+      
         public string COMPANY_CODE { get; set; }
         public string CREATED_BY { get; set; }
         public DateTime CREATED_DATE { get; set; }

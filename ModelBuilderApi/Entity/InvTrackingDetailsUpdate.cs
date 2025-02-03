@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("InvTrackingDetailsUpdate")]
+    
     public class InvTrackingDetailsUpdate
     {
 

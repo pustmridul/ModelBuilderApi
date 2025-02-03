@@ -3,11 +3,11 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("CITY")]
-    public class CITY
+    
+    public class City
     {
         public string CODE { get; set; }
-        [Key]
+       
         public string CITY_NAME { get; set; }
     }
 }

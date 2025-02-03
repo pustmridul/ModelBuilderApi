@@ -2,8 +2,8 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("CIRCULAR_DISCOUNT")]
-    public class CIRCULAR_DISCOUNT
+   
+    public class CircularDiscount
     {
         public string? PROMOTION_CODE { get; set; }
         public DateTime VALID_FROM { get; set; }

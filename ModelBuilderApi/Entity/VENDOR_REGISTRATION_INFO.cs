@@ -2,7 +2,6 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("VENDOR_REGISTRATION_INFO")]
     public class VENDOR_REGISTRATION_INFO
     {
         public string? COMPANY_CODE { get; set; }

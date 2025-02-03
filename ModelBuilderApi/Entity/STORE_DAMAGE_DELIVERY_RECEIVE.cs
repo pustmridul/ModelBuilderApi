@@ -3,10 +3,10 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("STORE_DAMAGE_DELIVERY_RECEIVE")]
+    
     public class STORE_DAMAGE_DELIVERY_RECEIVE
     {
-        [Key]
+       
         public string CHALLAN_NO { get; set; }
         public DateTime? DELIVERY_DATE { get; set; }
         public string COMPANY_CODE { get; set; }
@@ -19,7 +19,7 @@ namespace ModelBuilderApi.Entity
         public decimal? RCV_QTY { get; set; }
         public DateTime? RECEIVE_DATE { get; set; }
         public string? RECEIVE_BY { get; set; }
-        [Key]
+     
         public string SAL_BARCODE { get; set; }
         public decimal SAL_PRICE { get; set; }
         public DateTime? EXPIRE_DATE { get; set; }

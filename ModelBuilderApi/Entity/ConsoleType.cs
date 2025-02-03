@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("ConsoleType")]
+  
     public class ConsoleType
     {
         public int TypeId { get; set; }

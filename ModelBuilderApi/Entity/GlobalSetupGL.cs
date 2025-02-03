@@ -3,10 +3,10 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("GlobalSetupGL")]
+   
     public class GlobalSetupGL
     {
-        [Key]
+       
         public decimal ID { get; set; }
         public DateTime FiscYr { get; set; }
         public DateTime? FiscYr2 { get; set; }

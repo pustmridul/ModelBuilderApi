@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("PRODUCT_DELETE_LOG")]
+   
     public class PRODUCT_DELETE_LOG
     {
         public string BARCODE { get; set; }

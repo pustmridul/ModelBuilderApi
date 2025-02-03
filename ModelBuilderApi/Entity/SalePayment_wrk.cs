@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("SalePayment_wrk")]
+   
     public class SalePayment_wrk
     {
         public string? PAYMENT_CODE { get; set; }

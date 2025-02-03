@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("PRODUCT_ATTRIBUTE")]
+   
     public class PRODUCT_ATTRIBUTE
     {
         public string BARCODE { get; set; }

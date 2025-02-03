@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("StoreSetup")]
+    
     public class StoreSetup
     {
 

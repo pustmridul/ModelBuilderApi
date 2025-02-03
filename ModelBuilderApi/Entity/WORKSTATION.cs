@@ -3,13 +3,13 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("WORKSTATION")]
+   
     public class WORKSTATION
     {
         public decimal SERIAL { get; set; }
-        [Key]
+        
         public string COMPANY_CODE { get; set; }
-        [Key]
+        
         public string MAC_ADDR { get; set; }
         public string STATUS { get; set; }
         public string ENTRY_BY { get; set; }

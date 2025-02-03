@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("UserMenuDistribution")]
+    
     public class UserMenuDistribution
     {
         public string? UserName { get; set; }

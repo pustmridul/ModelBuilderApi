@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("cProfile")]
+    
     public class cProfile
     {
         public string? ceo { get; set; }

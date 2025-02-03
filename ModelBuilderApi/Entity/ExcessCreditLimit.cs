@@ -3,10 +3,10 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("ExcessCreditLimit")]
+   
     public class ExcessCreditLimit
     {
-        [Key]
+       
         public string CODE { get; set; }
         public string CUSTOMER_ID { get; set; }
         public decimal NUMBER_OF_INVOICE { get; set; }

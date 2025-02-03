@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("SALE_ORDER")]
+    
     public class SALE_ORDER
     {
         public string? ORDER_NO { get; set; }

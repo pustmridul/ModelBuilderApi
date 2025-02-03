@@ -3,10 +3,10 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("SmsTemplate")]
+    
     public class SmsTemplate
     {
-        [Key]
+       
         public int Id { get; set; }
         public string? Message { get; set; }
         public bool? Status { get; set; }

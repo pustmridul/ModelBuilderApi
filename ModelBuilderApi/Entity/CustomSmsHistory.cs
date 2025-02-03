@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("CustomSmsHistory")]
+   
     public class CustomSmsHistory
     {
         public int Id { get; set; }

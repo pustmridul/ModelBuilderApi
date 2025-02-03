@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("Circular_Disc_Barcode")]
+    
     public class Circular_Disc_Barcode
     {
         public string? PROMOTION_CODE { get; set; }

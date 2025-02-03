@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("USER_PRICE_SHOW_PERMISSION")]
+   
     public class USER_PRICE_SHOW_PERMISSION
     {
         public string COMPANY_CODE { get; set; }

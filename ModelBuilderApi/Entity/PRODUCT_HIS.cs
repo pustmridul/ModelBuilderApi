@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("PRODUCT_HIS")]
+   
     public class PRODUCT_HIS
     {
         public decimal SKU { get; set; }

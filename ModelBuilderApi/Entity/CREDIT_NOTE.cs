@@ -2,8 +2,8 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("CREDIT_NOTE")]
-    public class CREDIT_NOTE
+    
+    public class CreditNote 
     {
         public string? CUSTOMER_ID { get; set; }
         public string? INVOICE_NO { get; set; }

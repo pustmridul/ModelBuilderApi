@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("ProductPeriodicalBarcodewiseDataLog")]
+   
     public class ProductPeriodicalBarcodewiseDataLog
     {
         public string Message { get; set; }

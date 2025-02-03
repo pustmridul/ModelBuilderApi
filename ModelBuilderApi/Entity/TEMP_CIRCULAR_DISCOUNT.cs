@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("TEMP_CIRCULAR_DISCOUNT")]
+    
     public class TEMP_CIRCULAR_DISCOUNT
     {
 

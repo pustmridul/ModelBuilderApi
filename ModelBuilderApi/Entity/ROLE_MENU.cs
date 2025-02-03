@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("ROLE_MENU")]
+    
     public class ROLE_MENU
     {
 

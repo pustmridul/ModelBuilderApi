@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("DeliveryPerson")]
+   
     public class DeliveryPerson
     {
         public string? PERSON_ID { get; set; }

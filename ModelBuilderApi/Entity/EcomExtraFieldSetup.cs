@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("EcomExtraFieldSetup")]
+    
     public class EcomExtraFieldSetup
     {
         public bool? SMSSend { get; set; }

@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("PurchaseOrderGL")]
+    
     public class PurchaseOrderGL
     {
         public string PONO { get; set; }

@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("MEASURING_UNIT_Log")]
+    
     public class MEASURING_UNIT_Log
     {
         public decimal SERIAL { get; set; }

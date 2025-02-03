@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("CustomerType")]
+   
     public class CustomerType
     {
         public string? Group_Type { get; set; }

@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("PREGLStructure")]
+   
     public class PREGLStructure
     {
         public string CMPIDX { get; set; }

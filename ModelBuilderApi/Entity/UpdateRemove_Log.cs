@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("UpdateRemove_Log")]
+    
     public class UpdateRemove_Log
     {
 

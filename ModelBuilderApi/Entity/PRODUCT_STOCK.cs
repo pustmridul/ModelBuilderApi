@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("PRODUCT_STOCK")]
+    
     public class PRODUCT_STOCK
     {
         public string? BARCODE { get; set; }
@@ -15,7 +15,7 @@ namespace ModelBuilderApi.Entity
         public decimal PUR_RTN_QTY { get; set; }
         public decimal BAL_QTY { get; set; }
         public string? COMPANY_CODE { get; set; }
-        [Key]
+        
         public string STORE_CODE { get; set; }
         public decimal OPENING_STOCK { get; set; }
         public decimal SAL_QTY { get; set; }
@@ -25,9 +25,9 @@ namespace ModelBuilderApi.Entity
         public decimal SAL_CPU { get; set; }
         public decimal STORE_RCV_QTY { get; set; }
         public decimal DML_QTY { get; set; }
-        [Key]
+       
         public string SAL_BARCODE { get; set; }
-        [Key]
+        
         public decimal SAL_PRICE { get; set; }
         public decimal SL { get; set; }
         public decimal AdjQty { get; set; }

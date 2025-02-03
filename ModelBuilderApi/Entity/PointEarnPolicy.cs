@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("PointEarnPolicy")]
+    
     public class PointEarnPolicy
     {
         public string? COMPANY_CODE { get; set; }

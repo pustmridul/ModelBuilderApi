@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("CustomerType_Log")]
+   
     public class CustomerType_Log
     {
         public string? Group_Type { get; set; }

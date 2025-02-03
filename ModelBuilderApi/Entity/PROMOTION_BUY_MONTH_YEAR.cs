@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("PROMOTION_BUY_MONTH_YEAR")]
+    
     public class PROMOTION_BUY_MONTH_YEAR
     {               
         public string? PROMOTION_CODE { get; set; }

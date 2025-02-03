@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("PURCHASE_RETURN_DETAILS_WRK")]
+   
     public class PURCHASE_RETURN_DETAILS_WRK
     {
         public string? CHALLAN_NO { get; set; }

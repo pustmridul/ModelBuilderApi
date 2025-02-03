@@ -3,16 +3,16 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("STORE_REQUISITION")]
+    
     public class STORE_REQUISITION
     {
-        [Key]
+       
         public string REQUISITION_NO { get; set; }
         public DateTime REQUISITION_DATE { get; set; }
-        [Key]
+        
         public string BARCODE { get; set; }
         public decimal QTY { get; set; }
-        [Key]
+        
         public string COMPANY_CODE { get; set; }
         public string STORE_CODE { get; set; }
         public string REQUISTION_TO { get; set; }

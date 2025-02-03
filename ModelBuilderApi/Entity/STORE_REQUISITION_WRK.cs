@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("STORE_REQUISITION_WRK")]
+    
     public class STORE_REQUISITION_WRK
     {
         public string USERNAME { get; set; }

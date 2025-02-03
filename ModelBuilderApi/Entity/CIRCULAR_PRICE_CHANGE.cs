@@ -2,8 +2,8 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("CIRCULAR_PRICE_CHANGE")]
-    public class CIRCULAR_PRICE_CHANGE
+    
+    public class CircularPriceChange
     {
         public string CIRCULAR_NO { get; set; }
         public string CIRCULAR_NAME { get; set; }

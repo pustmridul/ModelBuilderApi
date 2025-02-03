@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("WeighingScaleSetup")]
+    
     public class WeighingScaleSetup
     {
         public decimal? Barcode_Lenth { get; set; }

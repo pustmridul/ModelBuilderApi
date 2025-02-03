@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("StoreMetaData")]
+   
     public class StoreMetaData
     {
         public string? MetaType { get; set; }

@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("ReportHead")]
+    
     public class ReportHead
     {
         public decimal SLNO { get; set; }

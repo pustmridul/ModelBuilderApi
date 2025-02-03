@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("USER_MENU")]
+    
     public class USER_MENU
     {
         public decimal SERIAL { get; set; }

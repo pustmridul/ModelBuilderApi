@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("ConsoleSetup")]
+   
     public class ConsoleSetup
     {
         public string ConsoleID { get; set; }

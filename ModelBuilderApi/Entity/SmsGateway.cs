@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("SmsGateway")]
+    
     public class SmsGateway
     {
 

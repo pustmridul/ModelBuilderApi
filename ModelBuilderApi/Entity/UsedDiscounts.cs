@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("UsedDiscounts")]
+    
     public class UsedDiscounts
     {
         public long id { get; set; }

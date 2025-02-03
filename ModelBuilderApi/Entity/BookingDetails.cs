@@ -2,7 +2,6 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("BookingDetails")]
     public class BookingDetails
     {
         public string BOOKING_NO { get; set; }

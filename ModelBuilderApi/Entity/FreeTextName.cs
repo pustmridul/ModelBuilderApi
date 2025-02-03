@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("FreeTextName")]
+   
     public class FreeTextName
     {
         public string? FREE_TEXT1 { get; set; }

@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("OtpHistory")]
+   
     public class OtpHistory
     {
         public decimal ID { get; set; }

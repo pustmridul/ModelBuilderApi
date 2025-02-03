@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("InvTrackingSummaryTemp")]
+    
     public class InvTrackingSummaryTemp
     {
         public string? InvtrackNo { get; set; }

@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("STORE_TRANSFER_PERMISSION")]
+    
     public class STORE_TRANSFER_PERMISSION
     {
         public string STORE_CODE { get; set; }

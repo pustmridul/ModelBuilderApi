@@ -2,8 +2,8 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("CATEGORY")]
-    public class CATEGORY
+    
+    public class Category
     {
         public string CODE { get; set; }
         public string CATEGORY_NAME { get; set; }

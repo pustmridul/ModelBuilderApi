@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("ORDER_DETAILS_EDIT_HIS")]
+    
     public class ORDER_DETAILS_EDIT_HIS
     {
         public int Id { get; set; }

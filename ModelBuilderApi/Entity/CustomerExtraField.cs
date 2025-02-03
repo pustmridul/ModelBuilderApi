@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("CustomerExtraField")]
+    
     public class CustomerExtraField
     {
         public bool? MainChannel { get; set; }

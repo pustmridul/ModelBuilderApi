@@ -2,8 +2,8 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("CUSTOMER_BARCODE")]
-    public class CUSTOMER_BARCODE
+   
+    public class CustomerBarcode 
     {
         public string? COMPANY_CODE { get; set; }
         public string? CUSTOMER_CODE { get; set; }

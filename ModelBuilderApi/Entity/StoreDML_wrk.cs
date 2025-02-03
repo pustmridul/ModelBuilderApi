@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("StoreDML_wrk")]
+   
     public class StoreDML_wrk
     {
         public string? COMPANY_CODE { get; set; }

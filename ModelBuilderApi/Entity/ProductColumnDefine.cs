@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("ProductColumnDefine")]
+    
     public class ProductColumnDefine
     {
         public string CompanyCode { get; set; }

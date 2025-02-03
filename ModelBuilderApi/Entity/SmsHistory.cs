@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("SmsHistory")]
+    
     public class SmsHistory
     {
         public DateTime? Date { get; set; }

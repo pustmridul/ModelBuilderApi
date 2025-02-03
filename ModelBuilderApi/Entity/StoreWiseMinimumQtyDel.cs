@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("StoreWiseMinimumQtyDel")]
+   
     public class StoreWiseMinimumQtyDel
     {
         public string CompanyCode { get; set; }

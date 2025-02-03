@@ -3,10 +3,10 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("CourierChargeRule")]
+    
     public class CourierChargeRule
     {
-        [Key]
+    
         public string CourierId { get; set; }
         public string? NAME { get; set; }
         public decimal FromWeight { get; set; }

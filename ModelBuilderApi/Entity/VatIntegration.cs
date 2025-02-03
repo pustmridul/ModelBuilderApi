@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("VatIntegration")]
+    
     public class VatIntegration
     {
         public bool VAT_INTEGRATION_ENABLED { get; set; }

@@ -2,8 +2,8 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("COURIER_LOG")]
-    public class COURIER_LOG
+   
+    public class CourierLog
     {
         public string? COURIER_ID { get; set; }
         public string? TRANSACTION_ID { get; set; }

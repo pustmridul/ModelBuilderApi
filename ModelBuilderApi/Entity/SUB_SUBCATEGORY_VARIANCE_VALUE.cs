@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("SUB_SUBCATEGORY_VARIANCE_VALUE")]
+    
     public class SUB_SUBCATEGORY_VARIANCE_VALUE
     {
 

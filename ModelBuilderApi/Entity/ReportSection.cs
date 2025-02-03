@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("ReportSection")]
+    
     public class ReportSection
     {
         public string? SectionName { get; set; }

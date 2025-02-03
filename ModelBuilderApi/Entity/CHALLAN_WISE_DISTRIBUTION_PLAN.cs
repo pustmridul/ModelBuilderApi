@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("CHALLAN_WISE_DISTRIBUTION_PLAN")]
+   
     public class CHALLAN_WISE_DISTRIBUTION_PLAN
     {
         public string CHALLAN_NO { get; set; }

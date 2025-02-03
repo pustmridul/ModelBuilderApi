@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("STORE_SUPERVISOR")]
+    
     public class STORE_SUPERVISOR
     {
         public string COMPANY_CODE { get; set; }

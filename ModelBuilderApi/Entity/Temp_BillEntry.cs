@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("Temp_BillEntry")]
+   
     public class Temp_BillEntry
     {
         public int ID { get; set; }

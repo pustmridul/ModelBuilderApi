@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("PRODUCT_VARIANCE_SEQUENCE")]
+   
     public class PRODUCT_VARIANCE_SEQUENCE
     {
         public string? P1 { get; set; }

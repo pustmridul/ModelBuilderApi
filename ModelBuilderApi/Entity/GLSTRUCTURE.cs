@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("GLSTRUCTURE")]
+    
     public class GLSTRUCTURE
     {
         public string CMPIDX { get; set; }

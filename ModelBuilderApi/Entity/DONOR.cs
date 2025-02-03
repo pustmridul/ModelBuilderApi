@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("DONOR")]
+  
     public class DONOR
     {
         public int ID { get; set; }

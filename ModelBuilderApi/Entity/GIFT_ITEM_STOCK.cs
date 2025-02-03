@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("GIFT_ITEM_STOCK")]
+    
     public class GIFT_ITEM_STOCK
     {
         public string? COMPANY_CODE { get; set; }

@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("Notification")]
+    
     public class Notification
     {
         public decimal ID { get; set; }

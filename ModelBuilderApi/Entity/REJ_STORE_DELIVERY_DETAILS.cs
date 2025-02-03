@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("REJ_STORE_DELIVERY_DETAILS")]
+    
     public class REJ_STORE_DELIVERY_DETAILS
     {
 

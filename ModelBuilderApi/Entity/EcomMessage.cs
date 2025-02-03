@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("EcomMessage")]
+    
     public class EcomMessage
     {
         public int? ID { get; set; }

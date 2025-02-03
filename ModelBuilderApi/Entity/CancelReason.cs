@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("CancelReason")]
+    
     public class CancelReason
     {
         public int ReasonID { get; set; }

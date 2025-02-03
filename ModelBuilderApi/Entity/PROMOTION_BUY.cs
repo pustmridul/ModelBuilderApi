@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("PROMOTION_BUY")]
+   
     public class PROMOTION_BUY
     {
         public string PROMOTION_CODE { get; set; }

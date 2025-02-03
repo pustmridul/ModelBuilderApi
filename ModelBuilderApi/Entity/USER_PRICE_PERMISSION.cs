@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("USER_PRICE_PERMISSION")]
+    
     public class USER_PRICE_PERMISSION
     {
         public string USER_NAME { get; set; }

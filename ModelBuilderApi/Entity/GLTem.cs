@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("GLTem")]
+    
     public class GLTem
     {
         public string CMPIDX { get; set; }

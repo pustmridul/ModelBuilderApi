@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("INVALID_PRODUCT_SALE_REGISTER")]
+   
     public class INVALID_PRODUCT_SALE_REGISTER
     {
         public string? COMPANY_CODE { get; set; }

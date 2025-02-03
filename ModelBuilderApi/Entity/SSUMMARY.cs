@@ -3,12 +3,12 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("SSUMMARY")]
+    
     public class SSUMMARY
     {
-        [Key]
+       
         public string INVOICE_NO { get; set; }
-        [Key]
+       
         public DateTime? INVOICE_DT { get; set; }
         public decimal? COST_PRICE { get; set; }
         public decimal? ITEM_PRICE { get; set; }
@@ -20,9 +20,9 @@ namespace ModelBuilderApi.Entity
         public decimal? RTN_SPECIAL_DISCOUNT { get; set; }
         public decimal? NET_AMT { get; set; }
         public string? SALESMAN { get; set; }
-        [Key]
+      
         public string STORE_CODE { get; set; }
-        [Key]
+       
         public string COMPANY_CODE { get; set; }
         public string? CUS_GROUP { get; set; }
         public string? CUSTOMER_CODE { get; set; }

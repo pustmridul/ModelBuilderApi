@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("DELIVERY_REQUISITION")]
+    
     public class DELIVERY_REQUISITION
     {
         public string? REQ_NO { get; set; }

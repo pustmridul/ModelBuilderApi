@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("PURCHASE_RCV_DETAILS_WRK")]
+   
     public class PURCHASE_RCV_DETAILS_WRK
     {
         public string? BARCODE { get; set; }

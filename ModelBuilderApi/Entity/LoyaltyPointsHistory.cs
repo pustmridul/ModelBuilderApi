@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("LoyaltyPointsHistory")]
+   
     public class LoyaltyPointsHistory
     {
         public string CustomerID { get; set; }

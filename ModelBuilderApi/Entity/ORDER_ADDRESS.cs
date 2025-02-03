@@ -3,11 +3,11 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("ORDER_ADDRESS")]
+   
     public class ORDER_ADDRESS
     {
 
-        [Key]
+        
         public int Id { get; set; }
         public string? ORDER_ID { get; set; }
         public string? ADDRESS_TYPE { get; set; }

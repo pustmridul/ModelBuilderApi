@@ -3,10 +3,10 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("ORDER")]
+    
     public class ORDER
     {
-        [Key]
+        
         public int Id { get; set; }
         public string? ORDER_ID { get; set; }
         public DateTime? CREATED_AT { get; set; }

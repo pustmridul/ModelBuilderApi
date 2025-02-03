@@ -3,12 +3,12 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("COMPANY_INFO")]
-    public class COMPANY_INFO
+    
+    public class CompanyInfo
     {
-        [Key]
+        
         public string COMPANY_CODE { get; set; }
-        [Key]
+        
         public string COMPANY_NAME { get; set; }
         public string ADDRESS1 { get; set; }
         public string? ADDRESS2 { get; set; }

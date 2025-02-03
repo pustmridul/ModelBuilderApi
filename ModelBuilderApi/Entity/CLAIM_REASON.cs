@@ -3,10 +3,10 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("CLAIM_REASON")]
-    public class CLAIM_REASON
+    
+    public class ClaimReason
     {
-        [Key]
+     
         public string CODE { get; set; }
         public string? DESCRIPTION { get; set; }
         public string? COMPANY_CODE { get; set; }

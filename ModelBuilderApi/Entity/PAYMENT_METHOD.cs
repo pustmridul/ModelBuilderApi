@@ -3,14 +3,14 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("PAYMENT_METHOD")]
+   
     public class PAYMENT_METHOD
     {
 
         public string CODE { get; set; }
-        [Key]
+        
         public string NAME { get; set; }
-        [Key]
+       
         public string COMPANY_CODE { get; set; }
         public string CRATED_BY { get; set; }
         public DateTime CREATED_DATE { get; set; }

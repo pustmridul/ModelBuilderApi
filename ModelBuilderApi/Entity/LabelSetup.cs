@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("LabelSetup")]
+   
     public class LabelSetup
     {
         public string UPDATED_BY { get; set; }

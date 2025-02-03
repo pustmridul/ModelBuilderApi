@@ -3,11 +3,11 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("Temp_GLHO")]
+    
     public class Temp_GLHO
     {
         public decimal ID { get; set; }
-        [Key]
+      
         public string CMPIDX { get; set; }
         public string? VNUMBER { get; set; }
         public DateTime? vDATE { get; set; }

@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("GIFT_VOUCHER_GENERATION_LOG")]
+   
     public class GIFT_VOUCHER_GENERATION_LOG
     {
         public string? VOUCHER_NO { get; set; }

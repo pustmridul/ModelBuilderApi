@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("ProductExtraFieldSetup")]
+    
     public class ProductExtraFieldSetup
     {
         public bool? ProductDescription { get; set; }

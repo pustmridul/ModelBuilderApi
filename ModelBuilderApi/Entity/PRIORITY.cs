@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("PRIORITY")]
+    
     public class PRIORITY
     {
         public string CODE { get; set; }

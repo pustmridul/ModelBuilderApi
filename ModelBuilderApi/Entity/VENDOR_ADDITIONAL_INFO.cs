@@ -3,13 +3,13 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("VENDOR_ADDITIONAL_INFO")]
+    
     public class VENDOR_ADDITIONAL_INFO
     {
-        [Key]
+       
         public string COMPANY_CODE { get; set; }
         public string? VENDOR_CODE { get; set; }
-        [Key]
+      
         public string TRD_NAME { get; set; }
         public string? TRD_ADDRESS { get; set; }
         public string? TRD_POSTAL_CODE { get; set; }

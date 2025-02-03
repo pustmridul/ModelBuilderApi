@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("VENDOR_Log")]
+   
     public class VENDOR_Log
     {
 

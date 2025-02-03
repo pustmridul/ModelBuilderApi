@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("SUB_CATEGORY")]
+   
     public class SUB_CATEGORY
     {
         public string CODE { get; set; }

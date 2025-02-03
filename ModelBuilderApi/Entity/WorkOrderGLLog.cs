@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("WorkOrderGLLog")]
+   
     public class WorkOrderGLLog
     {
         public string WONO { get; set; }

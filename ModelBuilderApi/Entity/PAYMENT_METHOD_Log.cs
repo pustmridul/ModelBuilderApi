@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("PAYMENT_METHOD_Log")]
+   
     public class PAYMENT_METHOD_Log
     {
         public string CODE { get; set; }

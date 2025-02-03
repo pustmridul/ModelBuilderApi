@@ -2,7 +2,7 @@
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("Department_Log")]
+    
     public class Department_Log
     {
         public string CODE { get; set; }

@@ -3,14 +3,14 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ModelBuilderApi.Entity
 {
-    [Table("DayCloseLog")]
+   
     public class DayCloseLog
     {
-        [Key]
+        
         public string COMPANY_CODE { get; set; }
-        [Key]
+        
         public string STORE_CODE { get; set; }
-        [Key]
+      
         public DateTime CLOSED_DT { get; set; }
         public decimal? RECEIVED_QTY { get; set; }
         public decimal? TRANSFER_QTY { get; set; }
@@ -20,7 +20,7 @@ namespace ModelBuilderApi.Entity
         public decimal? SAL_RVAL { get; set; }
         public decimal? NO_INVOICE { get; set; }
         public string TERMINAL_NO { get; set; }
-        [Key]
+       
         public string STATUS { get; set; }
         public string? EMPLOYEE_ID { get; set; }
         public DateTime? ENTRY_TIME { get; set; }
